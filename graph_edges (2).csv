@@ -1,0 +1,1962 @@
+source,relation,target
+Atorvastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Atorvastatin,METABOLIZED_BY,CYP3A4
+Atorvastatin,TRANSPORTED_BY,OATP1B1
+Atorvastatin,TRANSPORTED_BY,BCRP
+Atorvastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Atorvastatin,CAUSES,Myalgia
+Atorvastatin,CAUSES,Rhabdomyolysis
+Atorvastatin,CAUSES,Increased liver enzymes
+Atorvastatin,CAUSES,Headache
+Simvastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Simvastatin,METABOLIZED_BY,CYP3A4
+Simvastatin,TRANSPORTED_BY,OATP1B1
+Simvastatin,TRANSPORTED_BY,BCRP
+Simvastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Simvastatin,CAUSES,Myalgia
+Simvastatin,CAUSES,Rhabdomyolysis
+Simvastatin,CAUSES,Increased liver enzymes
+Simvastatin,CAUSES,Headache
+Lovastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Lovastatin,METABOLIZED_BY,CYP3A4
+Lovastatin,TRANSPORTED_BY,OATP1B1
+Lovastatin,TRANSPORTED_BY,BCRP
+Lovastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Lovastatin,CAUSES,Myalgia
+Lovastatin,CAUSES,Rhabdomyolysis
+Lovastatin,CAUSES,Increased liver enzymes
+Lovastatin,CAUSES,Headache
+Pravastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Pravastatin,METABOLIZED_BY,CYP3A4
+Pravastatin,TRANSPORTED_BY,OATP1B1
+Pravastatin,TRANSPORTED_BY,BCRP
+Pravastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Pravastatin,CAUSES,Myalgia
+Pravastatin,CAUSES,Rhabdomyolysis
+Pravastatin,CAUSES,Increased liver enzymes
+Pravastatin,CAUSES,Headache
+Rosuvastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Rosuvastatin,METABOLIZED_BY,CYP3A4
+Rosuvastatin,TRANSPORTED_BY,OATP1B1
+Rosuvastatin,TRANSPORTED_BY,BCRP
+Rosuvastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Rosuvastatin,CAUSES,Myalgia
+Rosuvastatin,CAUSES,Rhabdomyolysis
+Rosuvastatin,CAUSES,Increased liver enzymes
+Rosuvastatin,CAUSES,Headache
+Pitavastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Pitavastatin,METABOLIZED_BY,CYP3A4
+Pitavastatin,TRANSPORTED_BY,OATP1B1
+Pitavastatin,TRANSPORTED_BY,BCRP
+Pitavastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Pitavastatin,CAUSES,Myalgia
+Pitavastatin,CAUSES,Rhabdomyolysis
+Pitavastatin,CAUSES,Increased liver enzymes
+Pitavastatin,CAUSES,Headache
+Fluvastatin,TARGETS,HMG-CoA reductase (HMGCR)
+Fluvastatin,METABOLIZED_BY,CYP3A4
+Fluvastatin,TRANSPORTED_BY,OATP1B1
+Fluvastatin,TRANSPORTED_BY,BCRP
+Fluvastatin,PARTICIPATES_IN,Cholesterol biosynthesis pathway
+Fluvastatin,CAUSES,Myalgia
+Fluvastatin,CAUSES,Rhabdomyolysis
+Fluvastatin,CAUSES,Increased liver enzymes
+Fluvastatin,CAUSES,Headache
+Lisinopril,TARGETS,Angiotensin-converting enzyme (ACE)
+Lisinopril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Lisinopril,TRANSPORTED_BY,PEPT1
+Lisinopril,TRANSPORTED_BY,PEPT2
+Lisinopril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Lisinopril,CAUSES,Dry cough
+Lisinopril,CAUSES,Hyperkalemia
+Lisinopril,CAUSES,Angioedema
+Lisinopril,CAUSES,Hypotension
+Enalapril,TARGETS,Angiotensin-converting enzyme (ACE)
+Enalapril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Enalapril,TRANSPORTED_BY,PEPT1
+Enalapril,TRANSPORTED_BY,PEPT2
+Enalapril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Enalapril,CAUSES,Dry cough
+Enalapril,CAUSES,Hyperkalemia
+Enalapril,CAUSES,Angioedema
+Enalapril,CAUSES,Hypotension
+Ramipril,TARGETS,Angiotensin-converting enzyme (ACE)
+Ramipril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Ramipril,TRANSPORTED_BY,PEPT1
+Ramipril,TRANSPORTED_BY,PEPT2
+Ramipril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Ramipril,CAUSES,Dry cough
+Ramipril,CAUSES,Hyperkalemia
+Ramipril,CAUSES,Angioedema
+Ramipril,CAUSES,Hypotension
+Captopril,TARGETS,Angiotensin-converting enzyme (ACE)
+Captopril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Captopril,TRANSPORTED_BY,PEPT1
+Captopril,TRANSPORTED_BY,PEPT2
+Captopril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Captopril,CAUSES,Dry cough
+Captopril,CAUSES,Hyperkalemia
+Captopril,CAUSES,Angioedema
+Captopril,CAUSES,Hypotension
+Benazepril,TARGETS,Angiotensin-converting enzyme (ACE)
+Benazepril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Benazepril,TRANSPORTED_BY,PEPT1
+Benazepril,TRANSPORTED_BY,PEPT2
+Benazepril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Benazepril,CAUSES,Dry cough
+Benazepril,CAUSES,Hyperkalemia
+Benazepril,CAUSES,Angioedema
+Benazepril,CAUSES,Hypotension
+Quinapril,TARGETS,Angiotensin-converting enzyme (ACE)
+Quinapril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Quinapril,TRANSPORTED_BY,PEPT1
+Quinapril,TRANSPORTED_BY,PEPT2
+Quinapril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Quinapril,CAUSES,Dry cough
+Quinapril,CAUSES,Hyperkalemia
+Quinapril,CAUSES,Angioedema
+Quinapril,CAUSES,Hypotension
+Perindopril,TARGETS,Angiotensin-converting enzyme (ACE)
+Perindopril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Perindopril,TRANSPORTED_BY,PEPT1
+Perindopril,TRANSPORTED_BY,PEPT2
+Perindopril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Perindopril,CAUSES,Dry cough
+Perindopril,CAUSES,Hyperkalemia
+Perindopril,CAUSES,Angioedema
+Perindopril,CAUSES,Hypotension
+Fosinopril,TARGETS,Angiotensin-converting enzyme (ACE)
+Fosinopril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Fosinopril,TRANSPORTED_BY,PEPT1
+Fosinopril,TRANSPORTED_BY,PEPT2
+Fosinopril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Fosinopril,CAUSES,Dry cough
+Fosinopril,CAUSES,Hyperkalemia
+Fosinopril,CAUSES,Angioedema
+Fosinopril,CAUSES,Hypotension
+Trandolapril,TARGETS,Angiotensin-converting enzyme (ACE)
+Trandolapril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Trandolapril,TRANSPORTED_BY,PEPT1
+Trandolapril,TRANSPORTED_BY,PEPT2
+Trandolapril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Trandolapril,CAUSES,Dry cough
+Trandolapril,CAUSES,Hyperkalemia
+Trandolapril,CAUSES,Angioedema
+Trandolapril,CAUSES,Hypotension
+Moexipril,TARGETS,Angiotensin-converting enzyme (ACE)
+Moexipril,METABOLIZED_BY,Not significantly metabolized by CYP (renal elimination)
+Moexipril,TRANSPORTED_BY,PEPT1
+Moexipril,TRANSPORTED_BY,PEPT2
+Moexipril,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Moexipril,CAUSES,Dry cough
+Moexipril,CAUSES,Hyperkalemia
+Moexipril,CAUSES,Angioedema
+Moexipril,CAUSES,Hypotension
+Omeprazole,TARGETS,H+/K+-ATPase
+Omeprazole,METABOLIZED_BY,CYP2C19
+Omeprazole,METABOLIZED_BY,CYP3A4
+Omeprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Omeprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Omeprazole,CAUSES,Hypomagnesemia
+Omeprazole,CAUSES,Clostridium difficile-associated diarrhea
+Omeprazole,CAUSES,Headache
+Omeprazole,CAUSES,Osteoporosis risk
+Esomeprazole,TARGETS,H+/K+-ATPase
+Esomeprazole,METABOLIZED_BY,CYP2C19
+Esomeprazole,METABOLIZED_BY,CYP3A4
+Esomeprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Esomeprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Esomeprazole,CAUSES,Hypomagnesemia
+Esomeprazole,CAUSES,Clostridium difficile-associated diarrhea
+Esomeprazole,CAUSES,Headache
+Esomeprazole,CAUSES,Osteoporosis risk
+Lansoprazole,TARGETS,H+/K+-ATPase
+Lansoprazole,METABOLIZED_BY,CYP2C19
+Lansoprazole,METABOLIZED_BY,CYP3A4
+Lansoprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lansoprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Lansoprazole,CAUSES,Hypomagnesemia
+Lansoprazole,CAUSES,Clostridium difficile-associated diarrhea
+Lansoprazole,CAUSES,Headache
+Lansoprazole,CAUSES,Osteoporosis risk
+Pantoprazole,TARGETS,H+/K+-ATPase
+Pantoprazole,METABOLIZED_BY,CYP2C19
+Pantoprazole,METABOLIZED_BY,CYP3A4
+Pantoprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Pantoprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Pantoprazole,CAUSES,Hypomagnesemia
+Pantoprazole,CAUSES,Clostridium difficile-associated diarrhea
+Pantoprazole,CAUSES,Headache
+Pantoprazole,CAUSES,Osteoporosis risk
+Rabeprazole,TARGETS,H+/K+-ATPase
+Rabeprazole,METABOLIZED_BY,CYP2C19
+Rabeprazole,METABOLIZED_BY,CYP3A4
+Rabeprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Rabeprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Rabeprazole,CAUSES,Hypomagnesemia
+Rabeprazole,CAUSES,Clostridium difficile-associated diarrhea
+Rabeprazole,CAUSES,Headache
+Rabeprazole,CAUSES,Osteoporosis risk
+Dexlansoprazole,TARGETS,H+/K+-ATPase
+Dexlansoprazole,METABOLIZED_BY,CYP2C19
+Dexlansoprazole,METABOLIZED_BY,CYP3A4
+Dexlansoprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Dexlansoprazole,PARTICIPATES_IN,Gastric acid secretion pathway
+Dexlansoprazole,CAUSES,Hypomagnesemia
+Dexlansoprazole,CAUSES,Clostridium difficile-associated diarrhea
+Dexlansoprazole,CAUSES,Headache
+Dexlansoprazole,CAUSES,Osteoporosis risk
+Metoprolol,TARGETS,Beta-1 adrenergic receptor
+Metoprolol,TARGETS,Beta-2 adrenergic receptor
+Metoprolol,METABOLIZED_BY,CYP2D6
+Metoprolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Metoprolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Metoprolol,CAUSES,Bradycardia
+Metoprolol,CAUSES,Fatigue
+Metoprolol,CAUSES,Bronchospasm
+Metoprolol,CAUSES,Insomnia
+Metoprolol,CAUSES,Cold extremities
+Atenolol,TARGETS,Beta-1 adrenergic receptor
+Atenolol,TARGETS,Beta-2 adrenergic receptor
+Atenolol,METABOLIZED_BY,CYP2D6
+Atenolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Atenolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Atenolol,CAUSES,Bradycardia
+Atenolol,CAUSES,Fatigue
+Atenolol,CAUSES,Bronchospasm
+Atenolol,CAUSES,Insomnia
+Atenolol,CAUSES,Cold extremities
+Propranolol,TARGETS,Beta-1 adrenergic receptor
+Propranolol,TARGETS,Beta-2 adrenergic receptor
+Propranolol,METABOLIZED_BY,CYP2D6
+Propranolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Propranolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Propranolol,CAUSES,Bradycardia
+Propranolol,CAUSES,Fatigue
+Propranolol,CAUSES,Bronchospasm
+Propranolol,CAUSES,Insomnia
+Propranolol,CAUSES,Cold extremities
+Carvedilol,TARGETS,Beta-1 adrenergic receptor
+Carvedilol,TARGETS,Beta-2 adrenergic receptor
+Carvedilol,METABOLIZED_BY,CYP2D6
+Carvedilol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Carvedilol,PARTICIPATES_IN,Adrenergic signaling pathway
+Carvedilol,CAUSES,Bradycardia
+Carvedilol,CAUSES,Fatigue
+Carvedilol,CAUSES,Bronchospasm
+Carvedilol,CAUSES,Insomnia
+Carvedilol,CAUSES,Cold extremities
+Bisoprolol,TARGETS,Beta-1 adrenergic receptor
+Bisoprolol,TARGETS,Beta-2 adrenergic receptor
+Bisoprolol,METABOLIZED_BY,CYP2D6
+Bisoprolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Bisoprolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Bisoprolol,CAUSES,Bradycardia
+Bisoprolol,CAUSES,Fatigue
+Bisoprolol,CAUSES,Bronchospasm
+Bisoprolol,CAUSES,Insomnia
+Bisoprolol,CAUSES,Cold extremities
+Nebivolol,TARGETS,Beta-1 adrenergic receptor
+Nebivolol,TARGETS,Beta-2 adrenergic receptor
+Nebivolol,METABOLIZED_BY,CYP2D6
+Nebivolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nebivolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Nebivolol,CAUSES,Bradycardia
+Nebivolol,CAUSES,Fatigue
+Nebivolol,CAUSES,Bronchospasm
+Nebivolol,CAUSES,Insomnia
+Nebivolol,CAUSES,Cold extremities
+Labetalol,TARGETS,Beta-1 adrenergic receptor
+Labetalol,TARGETS,Beta-2 adrenergic receptor
+Labetalol,METABOLIZED_BY,CYP2D6
+Labetalol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Labetalol,PARTICIPATES_IN,Adrenergic signaling pathway
+Labetalol,CAUSES,Bradycardia
+Labetalol,CAUSES,Fatigue
+Labetalol,CAUSES,Bronchospasm
+Labetalol,CAUSES,Insomnia
+Labetalol,CAUSES,Cold extremities
+Nadolol,TARGETS,Beta-1 adrenergic receptor
+Nadolol,TARGETS,Beta-2 adrenergic receptor
+Nadolol,METABOLIZED_BY,CYP2D6
+Nadolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nadolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Nadolol,CAUSES,Bradycardia
+Nadolol,CAUSES,Fatigue
+Nadolol,CAUSES,Bronchospasm
+Nadolol,CAUSES,Insomnia
+Nadolol,CAUSES,Cold extremities
+Esmolol,TARGETS,Beta-1 adrenergic receptor
+Esmolol,TARGETS,Beta-2 adrenergic receptor
+Esmolol,METABOLIZED_BY,CYP2D6
+Esmolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Esmolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Esmolol,CAUSES,Bradycardia
+Esmolol,CAUSES,Fatigue
+Esmolol,CAUSES,Bronchospasm
+Esmolol,CAUSES,Insomnia
+Esmolol,CAUSES,Cold extremities
+Timolol,TARGETS,Beta-1 adrenergic receptor
+Timolol,TARGETS,Beta-2 adrenergic receptor
+Timolol,METABOLIZED_BY,CYP2D6
+Timolol,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Timolol,PARTICIPATES_IN,Adrenergic signaling pathway
+Timolol,CAUSES,Bradycardia
+Timolol,CAUSES,Fatigue
+Timolol,CAUSES,Bronchospasm
+Timolol,CAUSES,Insomnia
+Timolol,CAUSES,Cold extremities
+Amlodipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Amlodipine,METABOLIZED_BY,CYP3A4
+Amlodipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Amlodipine,PARTICIPATES_IN,Calcium signaling pathway
+Amlodipine,CAUSES,Peripheral edema
+Amlodipine,CAUSES,Dizziness
+Amlodipine,CAUSES,Flushing
+Amlodipine,CAUSES,Headache
+Amlodipine,CAUSES,Bradycardia (non-DHPs)
+Nifedipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Nifedipine,METABOLIZED_BY,CYP3A4
+Nifedipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nifedipine,PARTICIPATES_IN,Calcium signaling pathway
+Nifedipine,CAUSES,Peripheral edema
+Nifedipine,CAUSES,Dizziness
+Nifedipine,CAUSES,Flushing
+Nifedipine,CAUSES,Headache
+Nifedipine,CAUSES,Bradycardia (non-DHPs)
+Diltiazem,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Diltiazem,METABOLIZED_BY,CYP3A4
+Diltiazem,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Diltiazem,PARTICIPATES_IN,Calcium signaling pathway
+Diltiazem,CAUSES,Peripheral edema
+Diltiazem,CAUSES,Dizziness
+Diltiazem,CAUSES,Flushing
+Diltiazem,CAUSES,Headache
+Diltiazem,CAUSES,Bradycardia (non-DHPs)
+Verapamil,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Verapamil,METABOLIZED_BY,CYP3A4
+Verapamil,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Verapamil,PARTICIPATES_IN,Calcium signaling pathway
+Verapamil,CAUSES,Peripheral edema
+Verapamil,CAUSES,Dizziness
+Verapamil,CAUSES,Flushing
+Verapamil,CAUSES,Headache
+Verapamil,CAUSES,Bradycardia (non-DHPs)
+Felodipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Felodipine,METABOLIZED_BY,CYP3A4
+Felodipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Felodipine,PARTICIPATES_IN,Calcium signaling pathway
+Felodipine,CAUSES,Peripheral edema
+Felodipine,CAUSES,Dizziness
+Felodipine,CAUSES,Flushing
+Felodipine,CAUSES,Headache
+Felodipine,CAUSES,Bradycardia (non-DHPs)
+Isradipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Isradipine,METABOLIZED_BY,CYP3A4
+Isradipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Isradipine,PARTICIPATES_IN,Calcium signaling pathway
+Isradipine,CAUSES,Peripheral edema
+Isradipine,CAUSES,Dizziness
+Isradipine,CAUSES,Flushing
+Isradipine,CAUSES,Headache
+Isradipine,CAUSES,Bradycardia (non-DHPs)
+Nicardipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Nicardipine,METABOLIZED_BY,CYP3A4
+Nicardipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nicardipine,PARTICIPATES_IN,Calcium signaling pathway
+Nicardipine,CAUSES,Peripheral edema
+Nicardipine,CAUSES,Dizziness
+Nicardipine,CAUSES,Flushing
+Nicardipine,CAUSES,Headache
+Nicardipine,CAUSES,Bradycardia (non-DHPs)
+Nisoldipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Nisoldipine,METABOLIZED_BY,CYP3A4
+Nisoldipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nisoldipine,PARTICIPATES_IN,Calcium signaling pathway
+Nisoldipine,CAUSES,Peripheral edema
+Nisoldipine,CAUSES,Dizziness
+Nisoldipine,CAUSES,Flushing
+Nisoldipine,CAUSES,Headache
+Nisoldipine,CAUSES,Bradycardia (non-DHPs)
+Clevidipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Clevidipine,METABOLIZED_BY,CYP3A4
+Clevidipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Clevidipine,PARTICIPATES_IN,Calcium signaling pathway
+Clevidipine,CAUSES,Peripheral edema
+Clevidipine,CAUSES,Dizziness
+Clevidipine,CAUSES,Flushing
+Clevidipine,CAUSES,Headache
+Clevidipine,CAUSES,Bradycardia (non-DHPs)
+Nimodipine,TARGETS,L-type voltage-gated calcium channel (CACNA1C)
+Nimodipine,METABOLIZED_BY,CYP3A4
+Nimodipine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nimodipine,PARTICIPATES_IN,Calcium signaling pathway
+Nimodipine,CAUSES,Peripheral edema
+Nimodipine,CAUSES,Dizziness
+Nimodipine,CAUSES,Flushing
+Nimodipine,CAUSES,Headache
+Nimodipine,CAUSES,Bradycardia (non-DHPs)
+Fluoxetine,TARGETS,Serotonin transporter (SERT)
+Fluoxetine,METABOLIZED_BY,CYP2D6
+Fluoxetine,METABOLIZED_BY,CYP2C19
+Fluoxetine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fluoxetine,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Fluoxetine,CAUSES,Nausea
+Fluoxetine,CAUSES,Sexual dysfunction
+Fluoxetine,CAUSES,Insomnia
+Fluoxetine,CAUSES,Serotonin syndrome
+Fluoxetine,CAUSES,Weight changes
+Sertraline,TARGETS,Serotonin transporter (SERT)
+Sertraline,METABOLIZED_BY,CYP2D6
+Sertraline,METABOLIZED_BY,CYP2C19
+Sertraline,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Sertraline,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Sertraline,CAUSES,Nausea
+Sertraline,CAUSES,Sexual dysfunction
+Sertraline,CAUSES,Insomnia
+Sertraline,CAUSES,Serotonin syndrome
+Sertraline,CAUSES,Weight changes
+Paroxetine,TARGETS,Serotonin transporter (SERT)
+Paroxetine,METABOLIZED_BY,CYP2D6
+Paroxetine,METABOLIZED_BY,CYP2C19
+Paroxetine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Paroxetine,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Paroxetine,CAUSES,Nausea
+Paroxetine,CAUSES,Sexual dysfunction
+Paroxetine,CAUSES,Insomnia
+Paroxetine,CAUSES,Serotonin syndrome
+Paroxetine,CAUSES,Weight changes
+Citalopram,TARGETS,Serotonin transporter (SERT)
+Citalopram,METABOLIZED_BY,CYP2D6
+Citalopram,METABOLIZED_BY,CYP2C19
+Citalopram,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Citalopram,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Citalopram,CAUSES,Nausea
+Citalopram,CAUSES,Sexual dysfunction
+Citalopram,CAUSES,Insomnia
+Citalopram,CAUSES,Serotonin syndrome
+Citalopram,CAUSES,Weight changes
+Escitalopram,TARGETS,Serotonin transporter (SERT)
+Escitalopram,METABOLIZED_BY,CYP2D6
+Escitalopram,METABOLIZED_BY,CYP2C19
+Escitalopram,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Escitalopram,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Escitalopram,CAUSES,Nausea
+Escitalopram,CAUSES,Sexual dysfunction
+Escitalopram,CAUSES,Insomnia
+Escitalopram,CAUSES,Serotonin syndrome
+Escitalopram,CAUSES,Weight changes
+Fluvoxamine,TARGETS,Serotonin transporter (SERT)
+Fluvoxamine,METABOLIZED_BY,CYP2D6
+Fluvoxamine,METABOLIZED_BY,CYP2C19
+Fluvoxamine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fluvoxamine,PARTICIPATES_IN,Serotonergic neurotransmission pathway
+Fluvoxamine,CAUSES,Nausea
+Fluvoxamine,CAUSES,Sexual dysfunction
+Fluvoxamine,CAUSES,Insomnia
+Fluvoxamine,CAUSES,Serotonin syndrome
+Fluvoxamine,CAUSES,Weight changes
+Ciprofloxacin,TARGETS,DNA gyrase
+Ciprofloxacin,TARGETS,Topoisomerase IV
+Ciprofloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Ciprofloxacin,TRANSPORTED_BY,MATE1
+Ciprofloxacin,TRANSPORTED_BY,OAT3
+Ciprofloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Ciprofloxacin,CAUSES,Tendon rupture
+Ciprofloxacin,CAUSES,QTc prolongation
+Ciprofloxacin,CAUSES,Aortic aneurysm risk
+Ciprofloxacin,CAUSES,Dysglycemia
+Levofloxacin,TARGETS,DNA gyrase
+Levofloxacin,TARGETS,Topoisomerase IV
+Levofloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Levofloxacin,TRANSPORTED_BY,MATE1
+Levofloxacin,TRANSPORTED_BY,OAT3
+Levofloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Levofloxacin,CAUSES,Tendon rupture
+Levofloxacin,CAUSES,QTc prolongation
+Levofloxacin,CAUSES,Aortic aneurysm risk
+Levofloxacin,CAUSES,Dysglycemia
+Moxifloxacin,TARGETS,DNA gyrase
+Moxifloxacin,TARGETS,Topoisomerase IV
+Moxifloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Moxifloxacin,TRANSPORTED_BY,MATE1
+Moxifloxacin,TRANSPORTED_BY,OAT3
+Moxifloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Moxifloxacin,CAUSES,Tendon rupture
+Moxifloxacin,CAUSES,QTc prolongation
+Moxifloxacin,CAUSES,Aortic aneurysm risk
+Moxifloxacin,CAUSES,Dysglycemia
+Ofloxacin,TARGETS,DNA gyrase
+Ofloxacin,TARGETS,Topoisomerase IV
+Ofloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Ofloxacin,TRANSPORTED_BY,MATE1
+Ofloxacin,TRANSPORTED_BY,OAT3
+Ofloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Ofloxacin,CAUSES,Tendon rupture
+Ofloxacin,CAUSES,QTc prolongation
+Ofloxacin,CAUSES,Aortic aneurysm risk
+Ofloxacin,CAUSES,Dysglycemia
+Gemifloxacin,TARGETS,DNA gyrase
+Gemifloxacin,TARGETS,Topoisomerase IV
+Gemifloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Gemifloxacin,TRANSPORTED_BY,MATE1
+Gemifloxacin,TRANSPORTED_BY,OAT3
+Gemifloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Gemifloxacin,CAUSES,Tendon rupture
+Gemifloxacin,CAUSES,QTc prolongation
+Gemifloxacin,CAUSES,Aortic aneurysm risk
+Gemifloxacin,CAUSES,Dysglycemia
+Norfloxacin,TARGETS,DNA gyrase
+Norfloxacin,TARGETS,Topoisomerase IV
+Norfloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Norfloxacin,TRANSPORTED_BY,MATE1
+Norfloxacin,TRANSPORTED_BY,OAT3
+Norfloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Norfloxacin,CAUSES,Tendon rupture
+Norfloxacin,CAUSES,QTc prolongation
+Norfloxacin,CAUSES,Aortic aneurysm risk
+Norfloxacin,CAUSES,Dysglycemia
+Delafloxacin,TARGETS,DNA gyrase
+Delafloxacin,TARGETS,Topoisomerase IV
+Delafloxacin,METABOLIZED_BY,CYP1A2 (inhibitor)
+Delafloxacin,TRANSPORTED_BY,MATE1
+Delafloxacin,TRANSPORTED_BY,OAT3
+Delafloxacin,PARTICIPATES_IN,Bacterial DNA replication
+Delafloxacin,CAUSES,Tendon rupture
+Delafloxacin,CAUSES,QTc prolongation
+Delafloxacin,CAUSES,Aortic aneurysm risk
+Delafloxacin,CAUSES,Dysglycemia
+Metformin,TARGETS,AMP-activated protein kinase (AMPK)
+Metformin,METABOLIZED_BY,Not metabolized
+Metformin,TRANSPORTED_BY,OCT1
+Metformin,TRANSPORTED_BY,OCT2
+Metformin,TRANSPORTED_BY,MATE1
+Metformin,TRANSPORTED_BY,MATE2-K
+Metformin,PARTICIPATES_IN,AMPK signaling
+Metformin,PARTICIPATES_IN,Gluconeogenesis inhibition
+Metformin,CAUSES,Diarrhea
+Metformin,CAUSES,Nausea
+Metformin,CAUSES,Lactic acidosis (rare)
+Metformin,CAUSES,Vitamin B12 deficiency
+Glipizide,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Glipizide,METABOLIZED_BY,CYP2C9
+Glipizide,TRANSPORTED_BY,OATP1B1
+Glipizide,PARTICIPATES_IN,Insulin secretion pathway
+Glipizide,CAUSES,Hypoglycemia
+Glipizide,CAUSES,Weight gain
+Glipizide,CAUSES,Hypersensitivity reactions
+Glimepiride,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Glimepiride,METABOLIZED_BY,CYP2C9
+Glimepiride,TRANSPORTED_BY,OATP1B1
+Glimepiride,PARTICIPATES_IN,Insulin secretion pathway
+Glimepiride,CAUSES,Hypoglycemia
+Glimepiride,CAUSES,Weight gain
+Glimepiride,CAUSES,Hypersensitivity reactions
+Glyburide,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Glyburide,METABOLIZED_BY,CYP2C9
+Glyburide,TRANSPORTED_BY,OATP1B1
+Glyburide,PARTICIPATES_IN,Insulin secretion pathway
+Glyburide,CAUSES,Hypoglycemia
+Glyburide,CAUSES,Weight gain
+Glyburide,CAUSES,Hypersensitivity reactions
+Gliclazide,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Gliclazide,METABOLIZED_BY,CYP2C9
+Gliclazide,TRANSPORTED_BY,OATP1B1
+Gliclazide,PARTICIPATES_IN,Insulin secretion pathway
+Gliclazide,CAUSES,Hypoglycemia
+Gliclazide,CAUSES,Weight gain
+Gliclazide,CAUSES,Hypersensitivity reactions
+Chlorpropamide,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Chlorpropamide,METABOLIZED_BY,CYP2C9
+Chlorpropamide,TRANSPORTED_BY,OATP1B1
+Chlorpropamide,PARTICIPATES_IN,Insulin secretion pathway
+Chlorpropamide,CAUSES,Hypoglycemia
+Chlorpropamide,CAUSES,Weight gain
+Chlorpropamide,CAUSES,Hypersensitivity reactions
+Tolbutamide,TARGETS,Sulfonylurea receptor 1 (SUR1 / ABCC8)
+Tolbutamide,METABOLIZED_BY,CYP2C9
+Tolbutamide,TRANSPORTED_BY,OATP1B1
+Tolbutamide,PARTICIPATES_IN,Insulin secretion pathway
+Tolbutamide,CAUSES,Hypoglycemia
+Tolbutamide,CAUSES,Weight gain
+Tolbutamide,CAUSES,Hypersensitivity reactions
+Ibuprofen,TARGETS,Cyclooxygenase-1 (COX-1)
+Ibuprofen,TARGETS,Cyclooxygenase-2 (COX-2)
+Ibuprofen,METABOLIZED_BY,CYP2C9
+Ibuprofen,METABOLIZED_BY,CYP2C8
+Ibuprofen,TRANSPORTED_BY,OAT1
+Ibuprofen,TRANSPORTED_BY,OAT3
+Ibuprofen,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Ibuprofen,CAUSES,Gastric ulceration
+Ibuprofen,CAUSES,Nephrotoxicity
+Ibuprofen,CAUSES,Cardiovascular risk
+Ibuprofen,CAUSES,Fluid retention
+Naproxen,TARGETS,Cyclooxygenase-1 (COX-1)
+Naproxen,TARGETS,Cyclooxygenase-2 (COX-2)
+Naproxen,METABOLIZED_BY,CYP2C9
+Naproxen,METABOLIZED_BY,CYP2C8
+Naproxen,TRANSPORTED_BY,OAT1
+Naproxen,TRANSPORTED_BY,OAT3
+Naproxen,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Naproxen,CAUSES,Gastric ulceration
+Naproxen,CAUSES,Nephrotoxicity
+Naproxen,CAUSES,Cardiovascular risk
+Naproxen,CAUSES,Fluid retention
+Celecoxib,TARGETS,Cyclooxygenase-1 (COX-1)
+Celecoxib,TARGETS,Cyclooxygenase-2 (COX-2)
+Celecoxib,METABOLIZED_BY,CYP2C9
+Celecoxib,METABOLIZED_BY,CYP2C8
+Celecoxib,TRANSPORTED_BY,OAT1
+Celecoxib,TRANSPORTED_BY,OAT3
+Celecoxib,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Celecoxib,CAUSES,Gastric ulceration
+Celecoxib,CAUSES,Nephrotoxicity
+Celecoxib,CAUSES,Cardiovascular risk
+Celecoxib,CAUSES,Fluid retention
+Diclofenac,TARGETS,Cyclooxygenase-1 (COX-1)
+Diclofenac,TARGETS,Cyclooxygenase-2 (COX-2)
+Diclofenac,METABOLIZED_BY,CYP2C9
+Diclofenac,METABOLIZED_BY,CYP2C8
+Diclofenac,TRANSPORTED_BY,OAT1
+Diclofenac,TRANSPORTED_BY,OAT3
+Diclofenac,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Diclofenac,CAUSES,Gastric ulceration
+Diclofenac,CAUSES,Nephrotoxicity
+Diclofenac,CAUSES,Cardiovascular risk
+Diclofenac,CAUSES,Fluid retention
+Meloxicam,TARGETS,Cyclooxygenase-1 (COX-1)
+Meloxicam,TARGETS,Cyclooxygenase-2 (COX-2)
+Meloxicam,METABOLIZED_BY,CYP2C9
+Meloxicam,METABOLIZED_BY,CYP2C8
+Meloxicam,TRANSPORTED_BY,OAT1
+Meloxicam,TRANSPORTED_BY,OAT3
+Meloxicam,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Meloxicam,CAUSES,Gastric ulceration
+Meloxicam,CAUSES,Nephrotoxicity
+Meloxicam,CAUSES,Cardiovascular risk
+Meloxicam,CAUSES,Fluid retention
+Indomethacin,TARGETS,Cyclooxygenase-1 (COX-1)
+Indomethacin,TARGETS,Cyclooxygenase-2 (COX-2)
+Indomethacin,METABOLIZED_BY,CYP2C9
+Indomethacin,METABOLIZED_BY,CYP2C8
+Indomethacin,TRANSPORTED_BY,OAT1
+Indomethacin,TRANSPORTED_BY,OAT3
+Indomethacin,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Indomethacin,CAUSES,Gastric ulceration
+Indomethacin,CAUSES,Nephrotoxicity
+Indomethacin,CAUSES,Cardiovascular risk
+Indomethacin,CAUSES,Fluid retention
+Ketorolac,TARGETS,Cyclooxygenase-1 (COX-1)
+Ketorolac,TARGETS,Cyclooxygenase-2 (COX-2)
+Ketorolac,METABOLIZED_BY,CYP2C9
+Ketorolac,METABOLIZED_BY,CYP2C8
+Ketorolac,TRANSPORTED_BY,OAT1
+Ketorolac,TRANSPORTED_BY,OAT3
+Ketorolac,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Ketorolac,CAUSES,Gastric ulceration
+Ketorolac,CAUSES,Nephrotoxicity
+Ketorolac,CAUSES,Cardiovascular risk
+Ketorolac,CAUSES,Fluid retention
+Piroxicam,TARGETS,Cyclooxygenase-1 (COX-1)
+Piroxicam,TARGETS,Cyclooxygenase-2 (COX-2)
+Piroxicam,METABOLIZED_BY,CYP2C9
+Piroxicam,METABOLIZED_BY,CYP2C8
+Piroxicam,TRANSPORTED_BY,OAT1
+Piroxicam,TRANSPORTED_BY,OAT3
+Piroxicam,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Piroxicam,CAUSES,Gastric ulceration
+Piroxicam,CAUSES,Nephrotoxicity
+Piroxicam,CAUSES,Cardiovascular risk
+Piroxicam,CAUSES,Fluid retention
+Nabumetone,TARGETS,Cyclooxygenase-1 (COX-1)
+Nabumetone,TARGETS,Cyclooxygenase-2 (COX-2)
+Nabumetone,METABOLIZED_BY,CYP2C9
+Nabumetone,METABOLIZED_BY,CYP2C8
+Nabumetone,TRANSPORTED_BY,OAT1
+Nabumetone,TRANSPORTED_BY,OAT3
+Nabumetone,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Nabumetone,CAUSES,Gastric ulceration
+Nabumetone,CAUSES,Nephrotoxicity
+Nabumetone,CAUSES,Cardiovascular risk
+Nabumetone,CAUSES,Fluid retention
+Etodolac,TARGETS,Cyclooxygenase-1 (COX-1)
+Etodolac,TARGETS,Cyclooxygenase-2 (COX-2)
+Etodolac,METABOLIZED_BY,CYP2C9
+Etodolac,METABOLIZED_BY,CYP2C8
+Etodolac,TRANSPORTED_BY,OAT1
+Etodolac,TRANSPORTED_BY,OAT3
+Etodolac,PARTICIPATES_IN,Arachidonic acid metabolism / Prostaglandin synthesis
+Etodolac,CAUSES,Gastric ulceration
+Etodolac,CAUSES,Nephrotoxicity
+Etodolac,CAUSES,Cardiovascular risk
+Etodolac,CAUSES,Fluid retention
+Losartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Losartan,METABOLIZED_BY,CYP2C9
+Losartan,METABOLIZED_BY,CYP3A4
+Losartan,TRANSPORTED_BY,OATP1B1
+Losartan,TRANSPORTED_BY,BCRP
+Losartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Losartan,CAUSES,Hyperkalemia
+Losartan,CAUSES,Dizziness
+Losartan,CAUSES,Hypotension
+Losartan,CAUSES,Renal impairment
+Valsartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Valsartan,METABOLIZED_BY,CYP2C9
+Valsartan,METABOLIZED_BY,CYP3A4
+Valsartan,TRANSPORTED_BY,OATP1B1
+Valsartan,TRANSPORTED_BY,BCRP
+Valsartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Valsartan,CAUSES,Hyperkalemia
+Valsartan,CAUSES,Dizziness
+Valsartan,CAUSES,Hypotension
+Valsartan,CAUSES,Renal impairment
+Olmesartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Olmesartan,METABOLIZED_BY,CYP2C9
+Olmesartan,METABOLIZED_BY,CYP3A4
+Olmesartan,TRANSPORTED_BY,OATP1B1
+Olmesartan,TRANSPORTED_BY,BCRP
+Olmesartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Olmesartan,CAUSES,Hyperkalemia
+Olmesartan,CAUSES,Dizziness
+Olmesartan,CAUSES,Hypotension
+Olmesartan,CAUSES,Renal impairment
+Candethartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Candethartan,METABOLIZED_BY,CYP2C9
+Candethartan,METABOLIZED_BY,CYP3A4
+Candethartan,TRANSPORTED_BY,OATP1B1
+Candethartan,TRANSPORTED_BY,BCRP
+Candethartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Candethartan,CAUSES,Hyperkalemia
+Candethartan,CAUSES,Dizziness
+Candethartan,CAUSES,Hypotension
+Candethartan,CAUSES,Renal impairment
+Irbesartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Irbesartan,METABOLIZED_BY,CYP2C9
+Irbesartan,METABOLIZED_BY,CYP3A4
+Irbesartan,TRANSPORTED_BY,OATP1B1
+Irbesartan,TRANSPORTED_BY,BCRP
+Irbesartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Irbesartan,CAUSES,Hyperkalemia
+Irbesartan,CAUSES,Dizziness
+Irbesartan,CAUSES,Hypotension
+Irbesartan,CAUSES,Renal impairment
+Telmisartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Telmisartan,METABOLIZED_BY,CYP2C9
+Telmisartan,METABOLIZED_BY,CYP3A4
+Telmisartan,TRANSPORTED_BY,OATP1B1
+Telmisartan,TRANSPORTED_BY,BCRP
+Telmisartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Telmisartan,CAUSES,Hyperkalemia
+Telmisartan,CAUSES,Dizziness
+Telmisartan,CAUSES,Hypotension
+Telmisartan,CAUSES,Renal impairment
+Eprosartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Eprosartan,METABOLIZED_BY,CYP2C9
+Eprosartan,METABOLIZED_BY,CYP3A4
+Eprosartan,TRANSPORTED_BY,OATP1B1
+Eprosartan,TRANSPORTED_BY,BCRP
+Eprosartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Eprosartan,CAUSES,Hyperkalemia
+Eprosartan,CAUSES,Dizziness
+Eprosartan,CAUSES,Hypotension
+Eprosartan,CAUSES,Renal impairment
+Azilsartan,TARGETS,Angiotensin II receptor type 1 (AT1)
+Azilsartan,METABOLIZED_BY,CYP2C9
+Azilsartan,METABOLIZED_BY,CYP3A4
+Azilsartan,TRANSPORTED_BY,OATP1B1
+Azilsartan,TRANSPORTED_BY,BCRP
+Azilsartan,PARTICIPATES_IN,Renin-angiotensin-aldosterone system (RAAS)
+Azilsartan,CAUSES,Hyperkalemia
+Azilsartan,CAUSES,Dizziness
+Azilsartan,CAUSES,Hypotension
+Azilsartan,CAUSES,Renal impairment
+Canagliflozin,TARGETS,Sodium-glucose cotransporter 2 (SGLT2 / SLC5A2)
+Canagliflozin,METABOLIZED_BY,UGT1A9
+Canagliflozin,METABOLIZED_BY,UGT2B7
+Canagliflozin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Canagliflozin,TRANSPORTED_BY,BCRP
+Canagliflozin,PARTICIPATES_IN,Renal glucose reabsorption pathway
+Canagliflozin,CAUSES,Genitourinary tract infections
+Canagliflozin,CAUSES,Euglycemic diabetic ketoacidosis
+Canagliflozin,CAUSES,Polyuria
+Dapagliflozin,TARGETS,Sodium-glucose cotransporter 2 (SGLT2 / SLC5A2)
+Dapagliflozin,METABOLIZED_BY,UGT1A9
+Dapagliflozin,METABOLIZED_BY,UGT2B7
+Dapagliflozin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Dapagliflozin,TRANSPORTED_BY,BCRP
+Dapagliflozin,PARTICIPATES_IN,Renal glucose reabsorption pathway
+Dapagliflozin,CAUSES,Genitourinary tract infections
+Dapagliflozin,CAUSES,Euglycemic diabetic ketoacidosis
+Dapagliflozin,CAUSES,Polyuria
+Empagliflozin,TARGETS,Sodium-glucose cotransporter 2 (SGLT2 / SLC5A2)
+Empagliflozin,METABOLIZED_BY,UGT1A9
+Empagliflozin,METABOLIZED_BY,UGT2B7
+Empagliflozin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Empagliflozin,TRANSPORTED_BY,BCRP
+Empagliflozin,PARTICIPATES_IN,Renal glucose reabsorption pathway
+Empagliflozin,CAUSES,Genitourinary tract infections
+Empagliflozin,CAUSES,Euglycemic diabetic ketoacidosis
+Empagliflozin,CAUSES,Polyuria
+Ertugliflozin,TARGETS,Sodium-glucose cotransporter 2 (SGLT2 / SLC5A2)
+Ertugliflozin,METABOLIZED_BY,UGT1A9
+Ertugliflozin,METABOLIZED_BY,UGT2B7
+Ertugliflozin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Ertugliflozin,TRANSPORTED_BY,BCRP
+Ertugliflozin,PARTICIPATES_IN,Renal glucose reabsorption pathway
+Ertugliflozin,CAUSES,Genitourinary tract infections
+Ertugliflozin,CAUSES,Euglycemic diabetic ketoacidosis
+Ertugliflozin,CAUSES,Polyuria
+Sotagliflozin,TARGETS,Sodium-glucose cotransporter 2 (SGLT2 / SLC5A2)
+Sotagliflozin,METABOLIZED_BY,UGT1A9
+Sotagliflozin,METABOLIZED_BY,UGT2B7
+Sotagliflozin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Sotagliflozin,TRANSPORTED_BY,BCRP
+Sotagliflozin,PARTICIPATES_IN,Renal glucose reabsorption pathway
+Sotagliflozin,CAUSES,Genitourinary tract infections
+Sotagliflozin,CAUSES,Euglycemic diabetic ketoacidosis
+Sotagliflozin,CAUSES,Polyuria
+Rivaroxaban,TARGETS,Coagulation Factor Xa
+Rivaroxaban,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Rivaroxaban,METABOLIZED_BY,CYP3A4
+Rivaroxaban,METABOLIZED_BY,CYP2C9
+Rivaroxaban,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Rivaroxaban,TRANSPORTED_BY,BCRP
+Rivaroxaban,PARTICIPATES_IN,Coagulation cascade
+Rivaroxaban,CAUSES,Bleeding
+Rivaroxaban,CAUSES,Hemorrhage
+Rivaroxaban,CAUSES,Thrombocytopenia
+Rivaroxaban,CAUSES,Hematoma
+Apixaban,TARGETS,Coagulation Factor Xa
+Apixaban,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Apixaban,METABOLIZED_BY,CYP3A4
+Apixaban,METABOLIZED_BY,CYP2C9
+Apixaban,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Apixaban,TRANSPORTED_BY,BCRP
+Apixaban,PARTICIPATES_IN,Coagulation cascade
+Apixaban,CAUSES,Bleeding
+Apixaban,CAUSES,Hemorrhage
+Apixaban,CAUSES,Thrombocytopenia
+Apixaban,CAUSES,Hematoma
+Edoxaban,TARGETS,Coagulation Factor Xa
+Edoxaban,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Edoxaban,METABOLIZED_BY,CYP3A4
+Edoxaban,METABOLIZED_BY,CYP2C9
+Edoxaban,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Edoxaban,TRANSPORTED_BY,BCRP
+Edoxaban,PARTICIPATES_IN,Coagulation cascade
+Edoxaban,CAUSES,Bleeding
+Edoxaban,CAUSES,Hemorrhage
+Edoxaban,CAUSES,Thrombocytopenia
+Edoxaban,CAUSES,Hematoma
+Warfarin,TARGETS,Coagulation Factor Xa
+Warfarin,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Warfarin,METABOLIZED_BY,CYP3A4
+Warfarin,METABOLIZED_BY,CYP2C9
+Warfarin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Warfarin,TRANSPORTED_BY,BCRP
+Warfarin,PARTICIPATES_IN,Coagulation cascade
+Warfarin,CAUSES,Bleeding
+Warfarin,CAUSES,Hemorrhage
+Warfarin,CAUSES,Thrombocytopenia
+Warfarin,CAUSES,Hematoma
+Dabigatran,TARGETS,Coagulation Factor Xa
+Dabigatran,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Dabigatran,METABOLIZED_BY,CYP3A4
+Dabigatran,METABOLIZED_BY,CYP2C9
+Dabigatran,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Dabigatran,TRANSPORTED_BY,BCRP
+Dabigatran,PARTICIPATES_IN,Coagulation cascade
+Dabigatran,CAUSES,Bleeding
+Dabigatran,CAUSES,Hemorrhage
+Dabigatran,CAUSES,Thrombocytopenia
+Dabigatran,CAUSES,Hematoma
+Fondaparinux,TARGETS,Coagulation Factor Xa
+Fondaparinux,TARGETS,Vitamin K epoxide reductase (VKORC1)
+Fondaparinux,METABOLIZED_BY,CYP3A4
+Fondaparinux,METABOLIZED_BY,CYP2C9
+Fondaparinux,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fondaparinux,TRANSPORTED_BY,BCRP
+Fondaparinux,PARTICIPATES_IN,Coagulation cascade
+Fondaparinux,CAUSES,Bleeding
+Fondaparinux,CAUSES,Hemorrhage
+Fondaparinux,CAUSES,Thrombocytopenia
+Fondaparinux,CAUSES,Hematoma
+Fluconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Fluconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Fluconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Fluconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fluconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Fluconazole,CAUSES,Hepatotoxicity
+Fluconazole,CAUSES,QTc prolongation
+Fluconazole,CAUSES,Visual disturbances (voriconazole)
+Fluconazole,CAUSES,Nausea
+Ketoconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Ketoconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Ketoconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Ketoconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Ketoconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Ketoconazole,CAUSES,Hepatotoxicity
+Ketoconazole,CAUSES,QTc prolongation
+Ketoconazole,CAUSES,Visual disturbances (voriconazole)
+Ketoconazole,CAUSES,Nausea
+Itraconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Itraconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Itraconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Itraconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Itraconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Itraconazole,CAUSES,Hepatotoxicity
+Itraconazole,CAUSES,QTc prolongation
+Itraconazole,CAUSES,Visual disturbances (voriconazole)
+Itraconazole,CAUSES,Nausea
+Voriconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Voriconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Voriconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Voriconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Voriconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Voriconazole,CAUSES,Hepatotoxicity
+Voriconazole,CAUSES,QTc prolongation
+Voriconazole,CAUSES,Visual disturbances (voriconazole)
+Voriconazole,CAUSES,Nausea
+Posaconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Posaconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Posaconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Posaconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Posaconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Posaconazole,CAUSES,Hepatotoxicity
+Posaconazole,CAUSES,QTc prolongation
+Posaconazole,CAUSES,Visual disturbances (voriconazole)
+Posaconazole,CAUSES,Nausea
+Isavuconazole,TARGETS,Lanosterol 14-alpha-demethylase (CYP51)
+Isavuconazole,METABOLIZED_BY,CYP3A4 (inhibitor)
+Isavuconazole,METABOLIZED_BY,CYP2C19 (inhibitor)
+Isavuconazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Isavuconazole,PARTICIPATES_IN,Ergosterol biosynthesis pathway
+Isavuconazole,CAUSES,Hepatotoxicity
+Isavuconazole,CAUSES,QTc prolongation
+Isavuconazole,CAUSES,Visual disturbances (voriconazole)
+Isavuconazole,CAUSES,Nausea
+Alendronate,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Alendronate,METABOLIZED_BY,Not metabolized
+Alendronate,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Alendronate,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Alendronate,CAUSES,Osteonecrosis of the jaw
+Alendronate,CAUSES,Esophagitis
+Alendronate,CAUSES,Atypical femur fractures
+Alendronate,CAUSES,Hypocalcemia
+Risedronate,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Risedronate,METABOLIZED_BY,Not metabolized
+Risedronate,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Risedronate,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Risedronate,CAUSES,Osteonecrosis of the jaw
+Risedronate,CAUSES,Esophagitis
+Risedronate,CAUSES,Atypical femur fractures
+Risedronate,CAUSES,Hypocalcemia
+Ibandronate,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Ibandronate,METABOLIZED_BY,Not metabolized
+Ibandronate,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Ibandronate,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Ibandronate,CAUSES,Osteonecrosis of the jaw
+Ibandronate,CAUSES,Esophagitis
+Ibandronate,CAUSES,Atypical femur fractures
+Ibandronate,CAUSES,Hypocalcemia
+Zoledronic acid,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Zoledronic acid,METABOLIZED_BY,Not metabolized
+Zoledronic acid,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Zoledronic acid,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Zoledronic acid,CAUSES,Osteonecrosis of the jaw
+Zoledronic acid,CAUSES,Esophagitis
+Zoledronic acid,CAUSES,Atypical femur fractures
+Zoledronic acid,CAUSES,Hypocalcemia
+Pamidronate,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Pamidronate,METABOLIZED_BY,Not metabolized
+Pamidronate,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Pamidronate,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Pamidronate,CAUSES,Osteonecrosis of the jaw
+Pamidronate,CAUSES,Esophagitis
+Pamidronate,CAUSES,Atypical femur fractures
+Pamidronate,CAUSES,Hypocalcemia
+Etidronate,TARGETS,Farnesyl pyrophosphate synthase (FPPS)
+Etidronate,METABOLIZED_BY,Not metabolized
+Etidronate,TRANSPORTED_BY,Not fully characterized (renal excretion)
+Etidronate,PARTICIPATES_IN,Mevalonate pathway / Osteoclast apoptosis
+Etidronate,CAUSES,Osteonecrosis of the jaw
+Etidronate,CAUSES,Esophagitis
+Etidronate,CAUSES,Atypical femur fractures
+Etidronate,CAUSES,Hypocalcemia
+Azithromycin,TARGETS,50S ribosomal subunit (23S rRNA)
+Azithromycin,METABOLIZED_BY,CYP3A4 (inhibitor)
+Azithromycin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Azithromycin,PARTICIPATES_IN,Bacterial protein synthesis
+Azithromycin,CAUSES,Gastrointestinal distress
+Azithromycin,CAUSES,QTc prolongation
+Azithromycin,CAUSES,Hepatotoxicity
+Azithromycin,CAUSES,Ototoxicity
+Clarithromycin,TARGETS,50S ribosomal subunit (23S rRNA)
+Clarithromycin,METABOLIZED_BY,CYP3A4 (inhibitor)
+Clarithromycin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Clarithromycin,PARTICIPATES_IN,Bacterial protein synthesis
+Clarithromycin,CAUSES,Gastrointestinal distress
+Clarithromycin,CAUSES,QTc prolongation
+Clarithromycin,CAUSES,Hepatotoxicity
+Clarithromycin,CAUSES,Ototoxicity
+Erythromycin,TARGETS,50S ribosomal subunit (23S rRNA)
+Erythromycin,METABOLIZED_BY,CYP3A4 (inhibitor)
+Erythromycin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Erythromycin,PARTICIPATES_IN,Bacterial protein synthesis
+Erythromycin,CAUSES,Gastrointestinal distress
+Erythromycin,CAUSES,QTc prolongation
+Erythromycin,CAUSES,Hepatotoxicity
+Erythromycin,CAUSES,Ototoxicity
+Telithromycin,TARGETS,50S ribosomal subunit (23S rRNA)
+Telithromycin,METABOLIZED_BY,CYP3A4 (inhibitor)
+Telithromycin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Telithromycin,PARTICIPATES_IN,Bacterial protein synthesis
+Telithromycin,CAUSES,Gastrointestinal distress
+Telithromycin,CAUSES,QTc prolongation
+Telithromycin,CAUSES,Hepatotoxicity
+Telithromycin,CAUSES,Ototoxicity
+Fidaxomicin,TARGETS,50S ribosomal subunit (23S rRNA)
+Fidaxomicin,METABOLIZED_BY,CYP3A4 (inhibitor)
+Fidaxomicin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fidaxomicin,PARTICIPATES_IN,Bacterial protein synthesis
+Fidaxomicin,CAUSES,Gastrointestinal distress
+Fidaxomicin,CAUSES,QTc prolongation
+Fidaxomicin,CAUSES,Hepatotoxicity
+Fidaxomicin,CAUSES,Ototoxicity
+Sumatriptan,TARGETS,5-HT1B receptor
+Sumatriptan,TARGETS,5-HT1D receptor
+Sumatriptan,METABOLIZED_BY,MAO-A
+Sumatriptan,METABOLIZED_BY,CYP1A2
+Sumatriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Sumatriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Sumatriptan,CAUSES,Chest tightness
+Sumatriptan,CAUSES,Paresthesia
+Sumatriptan,CAUSES,Dizziness
+Sumatriptan,CAUSES,Flushing
+Sumatriptan,CAUSES,Medication overuse headache
+Rizatriptan,TARGETS,5-HT1B receptor
+Rizatriptan,TARGETS,5-HT1D receptor
+Rizatriptan,METABOLIZED_BY,MAO-A
+Rizatriptan,METABOLIZED_BY,CYP1A2
+Rizatriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Rizatriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Rizatriptan,CAUSES,Chest tightness
+Rizatriptan,CAUSES,Paresthesia
+Rizatriptan,CAUSES,Dizziness
+Rizatriptan,CAUSES,Flushing
+Rizatriptan,CAUSES,Medication overuse headache
+Zolmitriptan,TARGETS,5-HT1B receptor
+Zolmitriptan,TARGETS,5-HT1D receptor
+Zolmitriptan,METABOLIZED_BY,MAO-A
+Zolmitriptan,METABOLIZED_BY,CYP1A2
+Zolmitriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Zolmitriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Zolmitriptan,CAUSES,Chest tightness
+Zolmitriptan,CAUSES,Paresthesia
+Zolmitriptan,CAUSES,Dizziness
+Zolmitriptan,CAUSES,Flushing
+Zolmitriptan,CAUSES,Medication overuse headache
+Eletriptan,TARGETS,5-HT1B receptor
+Eletriptan,TARGETS,5-HT1D receptor
+Eletriptan,METABOLIZED_BY,MAO-A
+Eletriptan,METABOLIZED_BY,CYP1A2
+Eletriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Eletriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Eletriptan,CAUSES,Chest tightness
+Eletriptan,CAUSES,Paresthesia
+Eletriptan,CAUSES,Dizziness
+Eletriptan,CAUSES,Flushing
+Eletriptan,CAUSES,Medication overuse headache
+Almotriptan,TARGETS,5-HT1B receptor
+Almotriptan,TARGETS,5-HT1D receptor
+Almotriptan,METABOLIZED_BY,MAO-A
+Almotriptan,METABOLIZED_BY,CYP1A2
+Almotriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Almotriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Almotriptan,CAUSES,Chest tightness
+Almotriptan,CAUSES,Paresthesia
+Almotriptan,CAUSES,Dizziness
+Almotriptan,CAUSES,Flushing
+Almotriptan,CAUSES,Medication overuse headache
+Frovatriptan,TARGETS,5-HT1B receptor
+Frovatriptan,TARGETS,5-HT1D receptor
+Frovatriptan,METABOLIZED_BY,MAO-A
+Frovatriptan,METABOLIZED_BY,CYP1A2
+Frovatriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Frovatriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Frovatriptan,CAUSES,Chest tightness
+Frovatriptan,CAUSES,Paresthesia
+Frovatriptan,CAUSES,Dizziness
+Frovatriptan,CAUSES,Flushing
+Frovatriptan,CAUSES,Medication overuse headache
+Naratriptan,TARGETS,5-HT1B receptor
+Naratriptan,TARGETS,5-HT1D receptor
+Naratriptan,METABOLIZED_BY,MAO-A
+Naratriptan,METABOLIZED_BY,CYP1A2
+Naratriptan,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Naratriptan,PARTICIPATES_IN,Serotonergic vasoconstriction / Trigeminal inhibition
+Naratriptan,CAUSES,Chest tightness
+Naratriptan,CAUSES,Paresthesia
+Naratriptan,CAUSES,Dizziness
+Naratriptan,CAUSES,Flushing
+Naratriptan,CAUSES,Medication overuse headache
+Ritonavir,TARGETS,HIV-1 protease
+Ritonavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Ritonavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Ritonavir,TRANSPORTED_BY,MRP2
+Ritonavir,PARTICIPATES_IN,Viral polyprotein processing
+Ritonavir,CAUSES,Lipodystrophy
+Ritonavir,CAUSES,Hyperlipidemia
+Ritonavir,CAUSES,Insulin resistance
+Ritonavir,CAUSES,Hepatotoxicity
+Ritonavir,CAUSES,GI distress
+Darunavir,TARGETS,HIV-1 protease
+Darunavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Darunavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Darunavir,TRANSPORTED_BY,MRP2
+Darunavir,PARTICIPATES_IN,Viral polyprotein processing
+Darunavir,CAUSES,Lipodystrophy
+Darunavir,CAUSES,Hyperlipidemia
+Darunavir,CAUSES,Insulin resistance
+Darunavir,CAUSES,Hepatotoxicity
+Darunavir,CAUSES,GI distress
+Atazanavir,TARGETS,HIV-1 protease
+Atazanavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Atazanavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Atazanavir,TRANSPORTED_BY,MRP2
+Atazanavir,PARTICIPATES_IN,Viral polyprotein processing
+Atazanavir,CAUSES,Lipodystrophy
+Atazanavir,CAUSES,Hyperlipidemia
+Atazanavir,CAUSES,Insulin resistance
+Atazanavir,CAUSES,Hepatotoxicity
+Atazanavir,CAUSES,GI distress
+Lopinavir,TARGETS,HIV-1 protease
+Lopinavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Lopinavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lopinavir,TRANSPORTED_BY,MRP2
+Lopinavir,PARTICIPATES_IN,Viral polyprotein processing
+Lopinavir,CAUSES,Lipodystrophy
+Lopinavir,CAUSES,Hyperlipidemia
+Lopinavir,CAUSES,Insulin resistance
+Lopinavir,CAUSES,Hepatotoxicity
+Lopinavir,CAUSES,GI distress
+Saquinavir,TARGETS,HIV-1 protease
+Saquinavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Saquinavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Saquinavir,TRANSPORTED_BY,MRP2
+Saquinavir,PARTICIPATES_IN,Viral polyprotein processing
+Saquinavir,CAUSES,Lipodystrophy
+Saquinavir,CAUSES,Hyperlipidemia
+Saquinavir,CAUSES,Insulin resistance
+Saquinavir,CAUSES,Hepatotoxicity
+Saquinavir,CAUSES,GI distress
+Nelfinavir,TARGETS,HIV-1 protease
+Nelfinavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Nelfinavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nelfinavir,TRANSPORTED_BY,MRP2
+Nelfinavir,PARTICIPATES_IN,Viral polyprotein processing
+Nelfinavir,CAUSES,Lipodystrophy
+Nelfinavir,CAUSES,Hyperlipidemia
+Nelfinavir,CAUSES,Insulin resistance
+Nelfinavir,CAUSES,Hepatotoxicity
+Nelfinavir,CAUSES,GI distress
+Tipranavir,TARGETS,HIV-1 protease
+Tipranavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Tipranavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Tipranavir,TRANSPORTED_BY,MRP2
+Tipranavir,PARTICIPATES_IN,Viral polyprotein processing
+Tipranavir,CAUSES,Lipodystrophy
+Tipranavir,CAUSES,Hyperlipidemia
+Tipranavir,CAUSES,Insulin resistance
+Tipranavir,CAUSES,Hepatotoxicity
+Tipranavir,CAUSES,GI distress
+Indinavir,TARGETS,HIV-1 protease
+Indinavir,METABOLIZED_BY,CYP3A4 (strong inhibitor)
+Indinavir,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Indinavir,TRANSPORTED_BY,MRP2
+Indinavir,PARTICIPATES_IN,Viral polyprotein processing
+Indinavir,CAUSES,Lipodystrophy
+Indinavir,CAUSES,Hyperlipidemia
+Indinavir,CAUSES,Insulin resistance
+Indinavir,CAUSES,Hepatotoxicity
+Indinavir,CAUSES,GI distress
+Phenytoin,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Phenytoin,METABOLIZED_BY,CYP2C9
+Phenytoin,METABOLIZED_BY,CYP2C19
+Phenytoin,METABOLIZED_BY,CYP3A4
+Phenytoin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Phenytoin,PARTICIPATES_IN,Neuronal excitability pathway
+Phenytoin,CAUSES,Stevens-Johnson syndrome
+Phenytoin,CAUSES,Dizziness
+Phenytoin,CAUSES,Ataxia
+Phenytoin,CAUSES,Nystagmus
+Phenytoin,CAUSES,Leucopenia
+Carbamazepine,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Carbamazepine,METABOLIZED_BY,CYP2C9
+Carbamazepine,METABOLIZED_BY,CYP2C19
+Carbamazepine,METABOLIZED_BY,CYP3A4
+Carbamazepine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Carbamazepine,PARTICIPATES_IN,Neuronal excitability pathway
+Carbamazepine,CAUSES,Stevens-Johnson syndrome
+Carbamazepine,CAUSES,Dizziness
+Carbamazepine,CAUSES,Ataxia
+Carbamazepine,CAUSES,Nystagmus
+Carbamazepine,CAUSES,Leucopenia
+Oxcarbazepine,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Oxcarbazepine,METABOLIZED_BY,CYP2C9
+Oxcarbazepine,METABOLIZED_BY,CYP2C19
+Oxcarbazepine,METABOLIZED_BY,CYP3A4
+Oxcarbazepine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Oxcarbazepine,PARTICIPATES_IN,Neuronal excitability pathway
+Oxcarbazepine,CAUSES,Stevens-Johnson syndrome
+Oxcarbazepine,CAUSES,Dizziness
+Oxcarbazepine,CAUSES,Ataxia
+Oxcarbazepine,CAUSES,Nystagmus
+Oxcarbazepine,CAUSES,Leucopenia
+Lamotrigine,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Lamotrigine,METABOLIZED_BY,CYP2C9
+Lamotrigine,METABOLIZED_BY,CYP2C19
+Lamotrigine,METABOLIZED_BY,CYP3A4
+Lamotrigine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lamotrigine,PARTICIPATES_IN,Neuronal excitability pathway
+Lamotrigine,CAUSES,Stevens-Johnson syndrome
+Lamotrigine,CAUSES,Dizziness
+Lamotrigine,CAUSES,Ataxia
+Lamotrigine,CAUSES,Nystagmus
+Lamotrigine,CAUSES,Leucopenia
+Valproate,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Valproate,METABOLIZED_BY,CYP2C9
+Valproate,METABOLIZED_BY,CYP2C19
+Valproate,METABOLIZED_BY,CYP3A4
+Valproate,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Valproate,PARTICIPATES_IN,Neuronal excitability pathway
+Valproate,CAUSES,Stevens-Johnson syndrome
+Valproate,CAUSES,Dizziness
+Valproate,CAUSES,Ataxia
+Valproate,CAUSES,Nystagmus
+Valproate,CAUSES,Leucopenia
+Zonisamide,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Zonisamide,METABOLIZED_BY,CYP2C9
+Zonisamide,METABOLIZED_BY,CYP2C19
+Zonisamide,METABOLIZED_BY,CYP3A4
+Zonisamide,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Zonisamide,PARTICIPATES_IN,Neuronal excitability pathway
+Zonisamide,CAUSES,Stevens-Johnson syndrome
+Zonisamide,CAUSES,Dizziness
+Zonisamide,CAUSES,Ataxia
+Zonisamide,CAUSES,Nystagmus
+Zonisamide,CAUSES,Leucopenia
+Lacosamide,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Lacosamide,METABOLIZED_BY,CYP2C9
+Lacosamide,METABOLIZED_BY,CYP2C19
+Lacosamide,METABOLIZED_BY,CYP3A4
+Lacosamide,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lacosamide,PARTICIPATES_IN,Neuronal excitability pathway
+Lacosamide,CAUSES,Stevens-Johnson syndrome
+Lacosamide,CAUSES,Dizziness
+Lacosamide,CAUSES,Ataxia
+Lacosamide,CAUSES,Nystagmus
+Lacosamide,CAUSES,Leucopenia
+Topiramate,TARGETS,Voltage-gated sodium channel (SCN1A/SCN5A)
+Topiramate,METABOLIZED_BY,CYP2C9
+Topiramate,METABOLIZED_BY,CYP2C19
+Topiramate,METABOLIZED_BY,CYP3A4
+Topiramate,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Topiramate,PARTICIPATES_IN,Neuronal excitability pathway
+Topiramate,CAUSES,Stevens-Johnson syndrome
+Topiramate,CAUSES,Dizziness
+Topiramate,CAUSES,Ataxia
+Topiramate,CAUSES,Nystagmus
+Topiramate,CAUSES,Leucopenia
+Tamsulosin,TARGETS,Alpha-1A adrenergic receptor
+Tamsulosin,TARGETS,Alpha-1D adrenergic receptor
+Tamsulosin,METABOLIZED_BY,CYP3A4
+Tamsulosin,METABOLIZED_BY,CYP2D6
+Tamsulosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Tamsulosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Tamsulosin,CAUSES,Orthostatic hypotension
+Tamsulosin,CAUSES,Intraoperative floppy iris syndrome
+Tamsulosin,CAUSES,Dizziness
+Tamsulosin,CAUSES,Retrograde ejaculation
+Alfuzosin,TARGETS,Alpha-1A adrenergic receptor
+Alfuzosin,TARGETS,Alpha-1D adrenergic receptor
+Alfuzosin,METABOLIZED_BY,CYP3A4
+Alfuzosin,METABOLIZED_BY,CYP2D6
+Alfuzosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Alfuzosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Alfuzosin,CAUSES,Orthostatic hypotension
+Alfuzosin,CAUSES,Intraoperative floppy iris syndrome
+Alfuzosin,CAUSES,Dizziness
+Alfuzosin,CAUSES,Retrograde ejaculation
+Doxazosin,TARGETS,Alpha-1A adrenergic receptor
+Doxazosin,TARGETS,Alpha-1D adrenergic receptor
+Doxazosin,METABOLIZED_BY,CYP3A4
+Doxazosin,METABOLIZED_BY,CYP2D6
+Doxazosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Doxazosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Doxazosin,CAUSES,Orthostatic hypotension
+Doxazosin,CAUSES,Intraoperative floppy iris syndrome
+Doxazosin,CAUSES,Dizziness
+Doxazosin,CAUSES,Retrograde ejaculation
+Prazosin,TARGETS,Alpha-1A adrenergic receptor
+Prazosin,TARGETS,Alpha-1D adrenergic receptor
+Prazosin,METABOLIZED_BY,CYP3A4
+Prazosin,METABOLIZED_BY,CYP2D6
+Prazosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Prazosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Prazosin,CAUSES,Orthostatic hypotension
+Prazosin,CAUSES,Intraoperative floppy iris syndrome
+Prazosin,CAUSES,Dizziness
+Prazosin,CAUSES,Retrograde ejaculation
+Terazosin,TARGETS,Alpha-1A adrenergic receptor
+Terazosin,TARGETS,Alpha-1D adrenergic receptor
+Terazosin,METABOLIZED_BY,CYP3A4
+Terazosin,METABOLIZED_BY,CYP2D6
+Terazosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Terazosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Terazosin,CAUSES,Orthostatic hypotension
+Terazosin,CAUSES,Intraoperative floppy iris syndrome
+Terazosin,CAUSES,Dizziness
+Terazosin,CAUSES,Retrograde ejaculation
+Silodosin,TARGETS,Alpha-1A adrenergic receptor
+Silodosin,TARGETS,Alpha-1D adrenergic receptor
+Silodosin,METABOLIZED_BY,CYP3A4
+Silodosin,METABOLIZED_BY,CYP2D6
+Silodosin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Silodosin,PARTICIPATES_IN,Smooth muscle relaxation pathway
+Silodosin,CAUSES,Orthostatic hypotension
+Silodosin,CAUSES,Intraoperative floppy iris syndrome
+Silodosin,CAUSES,Dizziness
+Silodosin,CAUSES,Retrograde ejaculation
+Famotidine,TARGETS,Histamine H2 receptor
+Famotidine,METABOLIZED_BY,CYP2D6 (minor)
+Famotidine,TRANSPORTED_BY,OCT2
+Famotidine,TRANSPORTED_BY,MATE1
+Famotidine,PARTICIPATES_IN,Gastric acid secretion pathway
+Famotidine,CAUSES,Headache
+Famotidine,CAUSES,Gynecomastia (cimetidine only)
+Famotidine,CAUSES,Dizziness
+Ranitidine,TARGETS,Histamine H2 receptor
+Ranitidine,METABOLIZED_BY,CYP2D6 (minor)
+Ranitidine,TRANSPORTED_BY,OCT2
+Ranitidine,TRANSPORTED_BY,MATE1
+Ranitidine,PARTICIPATES_IN,Gastric acid secretion pathway
+Ranitidine,CAUSES,Headache
+Ranitidine,CAUSES,Gynecomastia (cimetidine only)
+Ranitidine,CAUSES,Dizziness
+Cimetidine,TARGETS,Histamine H2 receptor
+Cimetidine,METABOLIZED_BY,CYP2D6 (minor)
+Cimetidine,TRANSPORTED_BY,OCT2
+Cimetidine,TRANSPORTED_BY,MATE1
+Cimetidine,PARTICIPATES_IN,Gastric acid secretion pathway
+Cimetidine,CAUSES,Headache
+Cimetidine,CAUSES,Gynecomastia (cimetidine only)
+Cimetidine,CAUSES,Dizziness
+Nizatidine,TARGETS,Histamine H2 receptor
+Nizatidine,METABOLIZED_BY,CYP2D6 (minor)
+Nizatidine,TRANSPORTED_BY,OCT2
+Nizatidine,TRANSPORTED_BY,MATE1
+Nizatidine,PARTICIPATES_IN,Gastric acid secretion pathway
+Nizatidine,CAUSES,Headache
+Nizatidine,CAUSES,Gynecomastia (cimetidine only)
+Nizatidine,CAUSES,Dizziness
+Prednisone,TARGETS,Glucocorticoid receptor
+Prednisone,METABOLIZED_BY,CYP3A4
+Prednisone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Prednisone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Prednisone,CAUSES,Hyperglycemia
+Prednisone,CAUSES,Osteoporosis
+Prednisone,CAUSES,Immunosuppression
+Prednisone,CAUSES,Weight gain
+Prednisone,CAUSES,Cushings features
+Methylprednisolone,TARGETS,Glucocorticoid receptor
+Methylprednisolone,METABOLIZED_BY,CYP3A4
+Methylprednisolone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Methylprednisolone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Methylprednisolone,CAUSES,Hyperglycemia
+Methylprednisolone,CAUSES,Osteoporosis
+Methylprednisolone,CAUSES,Immunosuppression
+Methylprednisolone,CAUSES,Weight gain
+Methylprednisolone,CAUSES,Cushings features
+Dexamethasone,TARGETS,Glucocorticoid receptor
+Dexamethasone,METABOLIZED_BY,CYP3A4
+Dexamethasone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Dexamethasone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Dexamethasone,CAUSES,Hyperglycemia
+Dexamethasone,CAUSES,Osteoporosis
+Dexamethasone,CAUSES,Immunosuppression
+Dexamethasone,CAUSES,Weight gain
+Dexamethasone,CAUSES,Cushings features
+Hydrocortisone,TARGETS,Glucocorticoid receptor
+Hydrocortisone,METABOLIZED_BY,CYP3A4
+Hydrocortisone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Hydrocortisone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Hydrocortisone,CAUSES,Hyperglycemia
+Hydrocortisone,CAUSES,Osteoporosis
+Hydrocortisone,CAUSES,Immunosuppression
+Hydrocortisone,CAUSES,Weight gain
+Hydrocortisone,CAUSES,Cushings features
+Fludrocortisone,TARGETS,Glucocorticoid receptor
+Fludrocortisone,METABOLIZED_BY,CYP3A4
+Fludrocortisone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Fludrocortisone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Fludrocortisone,CAUSES,Hyperglycemia
+Fludrocortisone,CAUSES,Osteoporosis
+Fludrocortisone,CAUSES,Immunosuppression
+Fludrocortisone,CAUSES,Weight gain
+Fludrocortisone,CAUSES,Cushings features
+Betamethasone,TARGETS,Glucocorticoid receptor
+Betamethasone,METABOLIZED_BY,CYP3A4
+Betamethasone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Betamethasone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Betamethasone,CAUSES,Hyperglycemia
+Betamethasone,CAUSES,Osteoporosis
+Betamethasone,CAUSES,Immunosuppression
+Betamethasone,CAUSES,Weight gain
+Betamethasone,CAUSES,Cushings features
+Triamcinolone,TARGETS,Glucocorticoid receptor
+Triamcinolone,METABOLIZED_BY,CYP3A4
+Triamcinolone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Triamcinolone,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Triamcinolone,CAUSES,Hyperglycemia
+Triamcinolone,CAUSES,Osteoporosis
+Triamcinolone,CAUSES,Immunosuppression
+Triamcinolone,CAUSES,Weight gain
+Triamcinolone,CAUSES,Cushings features
+Budesonide,TARGETS,Glucocorticoid receptor
+Budesonide,METABOLIZED_BY,CYP3A4
+Budesonide,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Budesonide,PARTICIPATES_IN,Glucocorticoid receptor signaling pathway
+Budesonide,CAUSES,Hyperglycemia
+Budesonide,CAUSES,Osteoporosis
+Budesonide,CAUSES,Immunosuppression
+Budesonide,CAUSES,Weight gain
+Budesonide,CAUSES,Cushings features
+Albuterol,TARGETS,Beta-2 adrenergic receptor
+Albuterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Albuterol,TRANSPORTED_BY,OCT1
+Albuterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Albuterol,CAUSES,Tremor
+Albuterol,CAUSES,Tachycardia
+Albuterol,CAUSES,Hypokalemia
+Albuterol,CAUSES,Palpitations
+Salmeterol,TARGETS,Beta-2 adrenergic receptor
+Salmeterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Salmeterol,TRANSPORTED_BY,OCT1
+Salmeterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Salmeterol,CAUSES,Tremor
+Salmeterol,CAUSES,Tachycardia
+Salmeterol,CAUSES,Hypokalemia
+Salmeterol,CAUSES,Palpitations
+Formoterol,TARGETS,Beta-2 adrenergic receptor
+Formoterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Formoterol,TRANSPORTED_BY,OCT1
+Formoterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Formoterol,CAUSES,Tremor
+Formoterol,CAUSES,Tachycardia
+Formoterol,CAUSES,Hypokalemia
+Formoterol,CAUSES,Palpitations
+Levalbuterol,TARGETS,Beta-2 adrenergic receptor
+Levalbuterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Levalbuterol,TRANSPORTED_BY,OCT1
+Levalbuterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Levalbuterol,CAUSES,Tremor
+Levalbuterol,CAUSES,Tachycardia
+Levalbuterol,CAUSES,Hypokalemia
+Levalbuterol,CAUSES,Palpitations
+Indacaterol,TARGETS,Beta-2 adrenergic receptor
+Indacaterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Indacaterol,TRANSPORTED_BY,OCT1
+Indacaterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Indacaterol,CAUSES,Tremor
+Indacaterol,CAUSES,Tachycardia
+Indacaterol,CAUSES,Hypokalemia
+Indacaterol,CAUSES,Palpitations
+Vilanterol,TARGETS,Beta-2 adrenergic receptor
+Vilanterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Vilanterol,TRANSPORTED_BY,OCT1
+Vilanterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Vilanterol,CAUSES,Tremor
+Vilanterol,CAUSES,Tachycardia
+Vilanterol,CAUSES,Hypokalemia
+Vilanterol,CAUSES,Palpitations
+Olodaterol,TARGETS,Beta-2 adrenergic receptor
+Olodaterol,METABOLIZED_BY,Sulfotransferase (SULT)
+Olodaterol,TRANSPORTED_BY,OCT1
+Olodaterol,PARTICIPATES_IN,Bronchodilation signaling pathway
+Olodaterol,CAUSES,Tremor
+Olodaterol,CAUSES,Tachycardia
+Olodaterol,CAUSES,Hypokalemia
+Olodaterol,CAUSES,Palpitations
+Diazepam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Diazepam,METABOLIZED_BY,CYP3A4
+Diazepam,METABOLIZED_BY,CYP2C19
+Diazepam,METABOLIZED_BY,UGT1A4
+Diazepam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Diazepam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Diazepam,CAUSES,Sedation
+Diazepam,CAUSES,Tolerance
+Diazepam,CAUSES,Dependence
+Diazepam,CAUSES,Respiratory depression
+Diazepam,CAUSES,Anterograde amnesia
+Alprazolam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Alprazolam,METABOLIZED_BY,CYP3A4
+Alprazolam,METABOLIZED_BY,CYP2C19
+Alprazolam,METABOLIZED_BY,UGT1A4
+Alprazolam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Alprazolam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Alprazolam,CAUSES,Sedation
+Alprazolam,CAUSES,Tolerance
+Alprazolam,CAUSES,Dependence
+Alprazolam,CAUSES,Respiratory depression
+Alprazolam,CAUSES,Anterograde amnesia
+Lorazepam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Lorazepam,METABOLIZED_BY,CYP3A4
+Lorazepam,METABOLIZED_BY,CYP2C19
+Lorazepam,METABOLIZED_BY,UGT1A4
+Lorazepam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lorazepam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Lorazepam,CAUSES,Sedation
+Lorazepam,CAUSES,Tolerance
+Lorazepam,CAUSES,Dependence
+Lorazepam,CAUSES,Respiratory depression
+Lorazepam,CAUSES,Anterograde amnesia
+Clonazepam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Clonazepam,METABOLIZED_BY,CYP3A4
+Clonazepam,METABOLIZED_BY,CYP2C19
+Clonazepam,METABOLIZED_BY,UGT1A4
+Clonazepam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Clonazepam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Clonazepam,CAUSES,Sedation
+Clonazepam,CAUSES,Tolerance
+Clonazepam,CAUSES,Dependence
+Clonazepam,CAUSES,Respiratory depression
+Clonazepam,CAUSES,Anterograde amnesia
+Midazolam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Midazolam,METABOLIZED_BY,CYP3A4
+Midazolam,METABOLIZED_BY,CYP2C19
+Midazolam,METABOLIZED_BY,UGT1A4
+Midazolam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Midazolam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Midazolam,CAUSES,Sedation
+Midazolam,CAUSES,Tolerance
+Midazolam,CAUSES,Dependence
+Midazolam,CAUSES,Respiratory depression
+Midazolam,CAUSES,Anterograde amnesia
+Temazepam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Temazepam,METABOLIZED_BY,CYP3A4
+Temazepam,METABOLIZED_BY,CYP2C19
+Temazepam,METABOLIZED_BY,UGT1A4
+Temazepam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Temazepam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Temazepam,CAUSES,Sedation
+Temazepam,CAUSES,Tolerance
+Temazepam,CAUSES,Dependence
+Temazepam,CAUSES,Respiratory depression
+Temazepam,CAUSES,Anterograde amnesia
+Triazolam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Triazolam,METABOLIZED_BY,CYP3A4
+Triazolam,METABOLIZED_BY,CYP2C19
+Triazolam,METABOLIZED_BY,UGT1A4
+Triazolam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Triazolam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Triazolam,CAUSES,Sedation
+Triazolam,CAUSES,Tolerance
+Triazolam,CAUSES,Dependence
+Triazolam,CAUSES,Respiratory depression
+Triazolam,CAUSES,Anterograde amnesia
+Chlordiazepoxide,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Chlordiazepoxide,METABOLIZED_BY,CYP3A4
+Chlordiazepoxide,METABOLIZED_BY,CYP2C19
+Chlordiazepoxide,METABOLIZED_BY,UGT1A4
+Chlordiazepoxide,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Chlordiazepoxide,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Chlordiazepoxide,CAUSES,Sedation
+Chlordiazepoxide,CAUSES,Tolerance
+Chlordiazepoxide,CAUSES,Dependence
+Chlordiazepoxide,CAUSES,Respiratory depression
+Chlordiazepoxide,CAUSES,Anterograde amnesia
+Oxazepam,TARGETS,GABA-A receptor (alpha-1/2/3/5 subunits)
+Oxazepam,METABOLIZED_BY,CYP3A4
+Oxazepam,METABOLIZED_BY,CYP2C19
+Oxazepam,METABOLIZED_BY,UGT1A4
+Oxazepam,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Oxazepam,PARTICIPATES_IN,GABAergic neurotransmission pathway
+Oxazepam,CAUSES,Sedation
+Oxazepam,CAUSES,Tolerance
+Oxazepam,CAUSES,Dependence
+Oxazepam,CAUSES,Respiratory depression
+Oxazepam,CAUSES,Anterograde amnesia
+Amitriptyline,TARGETS,Norepinephrine transporter (NET)
+Amitriptyline,TARGETS,Serotonin transporter (SERT)
+Amitriptyline,TARGETS,Muscarinic/Histamine receptors
+Amitriptyline,METABOLIZED_BY,CYP2D6
+Amitriptyline,METABOLIZED_BY,CYP1A2
+Amitriptyline,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Amitriptyline,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Amitriptyline,CAUSES,Anticholinergic effects
+Amitriptyline,CAUSES,QTc prolongation
+Amitriptyline,CAUSES,Orthostatic hypotension
+Amitriptyline,CAUSES,Sedation
+Amitriptyline,CAUSES,Weight gain
+Nortriptyline,TARGETS,Norepinephrine transporter (NET)
+Nortriptyline,TARGETS,Serotonin transporter (SERT)
+Nortriptyline,TARGETS,Muscarinic/Histamine receptors
+Nortriptyline,METABOLIZED_BY,CYP2D6
+Nortriptyline,METABOLIZED_BY,CYP1A2
+Nortriptyline,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Nortriptyline,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Nortriptyline,CAUSES,Anticholinergic effects
+Nortriptyline,CAUSES,QTc prolongation
+Nortriptyline,CAUSES,Orthostatic hypotension
+Nortriptyline,CAUSES,Sedation
+Nortriptyline,CAUSES,Weight gain
+Imipramine,TARGETS,Norepinephrine transporter (NET)
+Imipramine,TARGETS,Serotonin transporter (SERT)
+Imipramine,TARGETS,Muscarinic/Histamine receptors
+Imipramine,METABOLIZED_BY,CYP2D6
+Imipramine,METABOLIZED_BY,CYP1A2
+Imipramine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Imipramine,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Imipramine,CAUSES,Anticholinergic effects
+Imipramine,CAUSES,QTc prolongation
+Imipramine,CAUSES,Orthostatic hypotension
+Imipramine,CAUSES,Sedation
+Imipramine,CAUSES,Weight gain
+Desipramine,TARGETS,Norepinephrine transporter (NET)
+Desipramine,TARGETS,Serotonin transporter (SERT)
+Desipramine,TARGETS,Muscarinic/Histamine receptors
+Desipramine,METABOLIZED_BY,CYP2D6
+Desipramine,METABOLIZED_BY,CYP1A2
+Desipramine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Desipramine,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Desipramine,CAUSES,Anticholinergic effects
+Desipramine,CAUSES,QTc prolongation
+Desipramine,CAUSES,Orthostatic hypotension
+Desipramine,CAUSES,Sedation
+Desipramine,CAUSES,Weight gain
+Clomipramine,TARGETS,Norepinephrine transporter (NET)
+Clomipramine,TARGETS,Serotonin transporter (SERT)
+Clomipramine,TARGETS,Muscarinic/Histamine receptors
+Clomipramine,METABOLIZED_BY,CYP2D6
+Clomipramine,METABOLIZED_BY,CYP1A2
+Clomipramine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Clomipramine,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Clomipramine,CAUSES,Anticholinergic effects
+Clomipramine,CAUSES,QTc prolongation
+Clomipramine,CAUSES,Orthostatic hypotension
+Clomipramine,CAUSES,Sedation
+Clomipramine,CAUSES,Weight gain
+Doxepin,TARGETS,Norepinephrine transporter (NET)
+Doxepin,TARGETS,Serotonin transporter (SERT)
+Doxepin,TARGETS,Muscarinic/Histamine receptors
+Doxepin,METABOLIZED_BY,CYP2D6
+Doxepin,METABOLIZED_BY,CYP1A2
+Doxepin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Doxepin,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Doxepin,CAUSES,Anticholinergic effects
+Doxepin,CAUSES,QTc prolongation
+Doxepin,CAUSES,Orthostatic hypotension
+Doxepin,CAUSES,Sedation
+Doxepin,CAUSES,Weight gain
+Protriptyline,TARGETS,Norepinephrine transporter (NET)
+Protriptyline,TARGETS,Serotonin transporter (SERT)
+Protriptyline,TARGETS,Muscarinic/Histamine receptors
+Protriptyline,METABOLIZED_BY,CYP2D6
+Protriptyline,METABOLIZED_BY,CYP1A2
+Protriptyline,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Protriptyline,PARTICIPATES_IN,Monoaminergic neurotransmission pathway
+Protriptyline,CAUSES,Anticholinergic effects
+Protriptyline,CAUSES,QTc prolongation
+Protriptyline,CAUSES,Orthostatic hypotension
+Protriptyline,CAUSES,Sedation
+Protriptyline,CAUSES,Weight gain
+Olanzapine,TARGETS,Dopamine D2 receptor
+Olanzapine,TARGETS,Serotonin 5-HT2A receptor
+Olanzapine,METABOLIZED_BY,CYP2D6
+Olanzapine,METABOLIZED_BY,CYP3A4
+Olanzapine,METABOLIZED_BY,CYP1A2
+Olanzapine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Olanzapine,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Olanzapine,CAUSES,Metabolic syndrome
+Olanzapine,CAUSES,Extrapyramidal symptoms
+Olanzapine,CAUSES,Hyperprolactinemia
+Olanzapine,CAUSES,QTc prolongation
+Olanzapine,CAUSES,Sedation
+Risperidone,TARGETS,Dopamine D2 receptor
+Risperidone,TARGETS,Serotonin 5-HT2A receptor
+Risperidone,METABOLIZED_BY,CYP2D6
+Risperidone,METABOLIZED_BY,CYP3A4
+Risperidone,METABOLIZED_BY,CYP1A2
+Risperidone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Risperidone,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Risperidone,CAUSES,Metabolic syndrome
+Risperidone,CAUSES,Extrapyramidal symptoms
+Risperidone,CAUSES,Hyperprolactinemia
+Risperidone,CAUSES,QTc prolongation
+Risperidone,CAUSES,Sedation
+Quetiapine,TARGETS,Dopamine D2 receptor
+Quetiapine,TARGETS,Serotonin 5-HT2A receptor
+Quetiapine,METABOLIZED_BY,CYP2D6
+Quetiapine,METABOLIZED_BY,CYP3A4
+Quetiapine,METABOLIZED_BY,CYP1A2
+Quetiapine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Quetiapine,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Quetiapine,CAUSES,Metabolic syndrome
+Quetiapine,CAUSES,Extrapyramidal symptoms
+Quetiapine,CAUSES,Hyperprolactinemia
+Quetiapine,CAUSES,QTc prolongation
+Quetiapine,CAUSES,Sedation
+Aripiprazole,TARGETS,Dopamine D2 receptor
+Aripiprazole,TARGETS,Serotonin 5-HT2A receptor
+Aripiprazole,METABOLIZED_BY,CYP2D6
+Aripiprazole,METABOLIZED_BY,CYP3A4
+Aripiprazole,METABOLIZED_BY,CYP1A2
+Aripiprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Aripiprazole,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Aripiprazole,CAUSES,Metabolic syndrome
+Aripiprazole,CAUSES,Extrapyramidal symptoms
+Aripiprazole,CAUSES,Hyperprolactinemia
+Aripiprazole,CAUSES,QTc prolongation
+Aripiprazole,CAUSES,Sedation
+Ziprasidone,TARGETS,Dopamine D2 receptor
+Ziprasidone,TARGETS,Serotonin 5-HT2A receptor
+Ziprasidone,METABOLIZED_BY,CYP2D6
+Ziprasidone,METABOLIZED_BY,CYP3A4
+Ziprasidone,METABOLIZED_BY,CYP1A2
+Ziprasidone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Ziprasidone,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Ziprasidone,CAUSES,Metabolic syndrome
+Ziprasidone,CAUSES,Extrapyramidal symptoms
+Ziprasidone,CAUSES,Hyperprolactinemia
+Ziprasidone,CAUSES,QTc prolongation
+Ziprasidone,CAUSES,Sedation
+Clozapine,TARGETS,Dopamine D2 receptor
+Clozapine,TARGETS,Serotonin 5-HT2A receptor
+Clozapine,METABOLIZED_BY,CYP2D6
+Clozapine,METABOLIZED_BY,CYP3A4
+Clozapine,METABOLIZED_BY,CYP1A2
+Clozapine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Clozapine,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Clozapine,CAUSES,Metabolic syndrome
+Clozapine,CAUSES,Extrapyramidal symptoms
+Clozapine,CAUSES,Hyperprolactinemia
+Clozapine,CAUSES,QTc prolongation
+Clozapine,CAUSES,Sedation
+Paliperidone,TARGETS,Dopamine D2 receptor
+Paliperidone,TARGETS,Serotonin 5-HT2A receptor
+Paliperidone,METABOLIZED_BY,CYP2D6
+Paliperidone,METABOLIZED_BY,CYP3A4
+Paliperidone,METABOLIZED_BY,CYP1A2
+Paliperidone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Paliperidone,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Paliperidone,CAUSES,Metabolic syndrome
+Paliperidone,CAUSES,Extrapyramidal symptoms
+Paliperidone,CAUSES,Hyperprolactinemia
+Paliperidone,CAUSES,QTc prolongation
+Paliperidone,CAUSES,Sedation
+Lurasidone,TARGETS,Dopamine D2 receptor
+Lurasidone,TARGETS,Serotonin 5-HT2A receptor
+Lurasidone,METABOLIZED_BY,CYP2D6
+Lurasidone,METABOLIZED_BY,CYP3A4
+Lurasidone,METABOLIZED_BY,CYP1A2
+Lurasidone,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Lurasidone,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Lurasidone,CAUSES,Metabolic syndrome
+Lurasidone,CAUSES,Extrapyramidal symptoms
+Lurasidone,CAUSES,Hyperprolactinemia
+Lurasidone,CAUSES,QTc prolongation
+Lurasidone,CAUSES,Sedation
+Cariprazine,TARGETS,Dopamine D2 receptor
+Cariprazine,TARGETS,Serotonin 5-HT2A receptor
+Cariprazine,METABOLIZED_BY,CYP2D6
+Cariprazine,METABOLIZED_BY,CYP3A4
+Cariprazine,METABOLIZED_BY,CYP1A2
+Cariprazine,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Cariprazine,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Cariprazine,CAUSES,Metabolic syndrome
+Cariprazine,CAUSES,Extrapyramidal symptoms
+Cariprazine,CAUSES,Hyperprolactinemia
+Cariprazine,CAUSES,QTc prolongation
+Cariprazine,CAUSES,Sedation
+Brexpiprazole,TARGETS,Dopamine D2 receptor
+Brexpiprazole,TARGETS,Serotonin 5-HT2A receptor
+Brexpiprazole,METABOLIZED_BY,CYP2D6
+Brexpiprazole,METABOLIZED_BY,CYP3A4
+Brexpiprazole,METABOLIZED_BY,CYP1A2
+Brexpiprazole,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Brexpiprazole,PARTICIPATES_IN,Dopaminergic and serotonergic neurotransmission pathways
+Brexpiprazole,CAUSES,Metabolic syndrome
+Brexpiprazole,CAUSES,Extrapyramidal symptoms
+Brexpiprazole,CAUSES,Hyperprolactinemia
+Brexpiprazole,CAUSES,QTc prolongation
+Brexpiprazole,CAUSES,Sedation
+Furosemide,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Furosemide,TARGETS,Na-Cl cotransporter (NCC)
+Furosemide,METABOLIZED_BY,Not significantly metabolized
+Furosemide,TRANSPORTED_BY,OAT1
+Furosemide,TRANSPORTED_BY,OAT3
+Furosemide,TRANSPORTED_BY,OAT4
+Furosemide,PARTICIPATES_IN,Renal electrolyte handling pathway
+Furosemide,CAUSES,Hypokalemia
+Furosemide,CAUSES,Hyponatremia
+Furosemide,CAUSES,Hyperuricemia
+Furosemide,CAUSES,Dehydration
+Furosemide,CAUSES,Ototoxicity (loops)
+Bumetanide,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Bumetanide,TARGETS,Na-Cl cotransporter (NCC)
+Bumetanide,METABOLIZED_BY,Not significantly metabolized
+Bumetanide,TRANSPORTED_BY,OAT1
+Bumetanide,TRANSPORTED_BY,OAT3
+Bumetanide,TRANSPORTED_BY,OAT4
+Bumetanide,PARTICIPATES_IN,Renal electrolyte handling pathway
+Bumetanide,CAUSES,Hypokalemia
+Bumetanide,CAUSES,Hyponatremia
+Bumetanide,CAUSES,Hyperuricemia
+Bumetanide,CAUSES,Dehydration
+Bumetanide,CAUSES,Ototoxicity (loops)
+Torsemide,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Torsemide,TARGETS,Na-Cl cotransporter (NCC)
+Torsemide,METABOLIZED_BY,Not significantly metabolized
+Torsemide,TRANSPORTED_BY,OAT1
+Torsemide,TRANSPORTED_BY,OAT3
+Torsemide,TRANSPORTED_BY,OAT4
+Torsemide,PARTICIPATES_IN,Renal electrolyte handling pathway
+Torsemide,CAUSES,Hypokalemia
+Torsemide,CAUSES,Hyponatremia
+Torsemide,CAUSES,Hyperuricemia
+Torsemide,CAUSES,Dehydration
+Torsemide,CAUSES,Ototoxicity (loops)
+Hydrochlorothiazide,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Hydrochlorothiazide,TARGETS,Na-Cl cotransporter (NCC)
+Hydrochlorothiazide,METABOLIZED_BY,Not significantly metabolized
+Hydrochlorothiazide,TRANSPORTED_BY,OAT1
+Hydrochlorothiazide,TRANSPORTED_BY,OAT3
+Hydrochlorothiazide,TRANSPORTED_BY,OAT4
+Hydrochlorothiazide,PARTICIPATES_IN,Renal electrolyte handling pathway
+Hydrochlorothiazide,CAUSES,Hypokalemia
+Hydrochlorothiazide,CAUSES,Hyponatremia
+Hydrochlorothiazide,CAUSES,Hyperuricemia
+Hydrochlorothiazide,CAUSES,Dehydration
+Hydrochlorothiazide,CAUSES,Ototoxicity (loops)
+Chlorthalidone,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Chlorthalidone,TARGETS,Na-Cl cotransporter (NCC)
+Chlorthalidone,METABOLIZED_BY,Not significantly metabolized
+Chlorthalidone,TRANSPORTED_BY,OAT1
+Chlorthalidone,TRANSPORTED_BY,OAT3
+Chlorthalidone,TRANSPORTED_BY,OAT4
+Chlorthalidone,PARTICIPATES_IN,Renal electrolyte handling pathway
+Chlorthalidone,CAUSES,Hypokalemia
+Chlorthalidone,CAUSES,Hyponatremia
+Chlorthalidone,CAUSES,Hyperuricemia
+Chlorthalidone,CAUSES,Dehydration
+Chlorthalidone,CAUSES,Ototoxicity (loops)
+Indapamide,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Indapamide,TARGETS,Na-Cl cotransporter (NCC)
+Indapamide,METABOLIZED_BY,Not significantly metabolized
+Indapamide,TRANSPORTED_BY,OAT1
+Indapamide,TRANSPORTED_BY,OAT3
+Indapamide,TRANSPORTED_BY,OAT4
+Indapamide,PARTICIPATES_IN,Renal electrolyte handling pathway
+Indapamide,CAUSES,Hypokalemia
+Indapamide,CAUSES,Hyponatremia
+Indapamide,CAUSES,Hyperuricemia
+Indapamide,CAUSES,Dehydration
+Indapamide,CAUSES,Ototoxicity (loops)
+Metolazone,TARGETS,Na-K-2Cl cotransporter (NKCC2)
+Metolazone,TARGETS,Na-Cl cotransporter (NCC)
+Metolazone,METABOLIZED_BY,Not significantly metabolized
+Metolazone,TRANSPORTED_BY,OAT1
+Metolazone,TRANSPORTED_BY,OAT3
+Metolazone,TRANSPORTED_BY,OAT4
+Metolazone,PARTICIPATES_IN,Renal electrolyte handling pathway
+Metolazone,CAUSES,Hypokalemia
+Metolazone,CAUSES,Hyponatremia
+Metolazone,CAUSES,Hyperuricemia
+Metolazone,CAUSES,Dehydration
+Metolazone,CAUSES,Ototoxicity (loops)
+Sitagliptin,TARGETS,Dipeptidyl peptidase 4 (DPP-4)
+Sitagliptin,METABOLIZED_BY,CYP3A4 (sitagliptin/saxagliptin)
+Sitagliptin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Sitagliptin,PARTICIPATES_IN,Incretin hormone pathway
+Sitagliptin,CAUSES,Nasopharyngitis
+Sitagliptin,CAUSES,Headache
+Sitagliptin,CAUSES,Pancreatitis risk
+Sitagliptin,CAUSES,Joint pain
+Saxagliptin,TARGETS,Dipeptidyl peptidase 4 (DPP-4)
+Saxagliptin,METABOLIZED_BY,CYP3A4 (sitagliptin/saxagliptin)
+Saxagliptin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Saxagliptin,PARTICIPATES_IN,Incretin hormone pathway
+Saxagliptin,CAUSES,Nasopharyngitis
+Saxagliptin,CAUSES,Headache
+Saxagliptin,CAUSES,Pancreatitis risk
+Saxagliptin,CAUSES,Joint pain
+Linagliptin,TARGETS,Dipeptidyl peptidase 4 (DPP-4)
+Linagliptin,METABOLIZED_BY,CYP3A4 (sitagliptin/saxagliptin)
+Linagliptin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Linagliptin,PARTICIPATES_IN,Incretin hormone pathway
+Linagliptin,CAUSES,Nasopharyngitis
+Linagliptin,CAUSES,Headache
+Linagliptin,CAUSES,Pancreatitis risk
+Linagliptin,CAUSES,Joint pain
+Alogliptin,TARGETS,Dipeptidyl peptidase 4 (DPP-4)
+Alogliptin,METABOLIZED_BY,CYP3A4 (sitagliptin/saxagliptin)
+Alogliptin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Alogliptin,PARTICIPATES_IN,Incretin hormone pathway
+Alogliptin,CAUSES,Nasopharyngitis
+Alogliptin,CAUSES,Headache
+Alogliptin,CAUSES,Pancreatitis risk
+Alogliptin,CAUSES,Joint pain
+Vildagliptin,TARGETS,Dipeptidyl peptidase 4 (DPP-4)
+Vildagliptin,METABOLIZED_BY,CYP3A4 (sitagliptin/saxagliptin)
+Vildagliptin,TRANSPORTED_BY,P-glycoprotein (P-gp)
+Vildagliptin,PARTICIPATES_IN,Incretin hormone pathway
+Vildagliptin,CAUSES,Nasopharyngitis
+Vildagliptin,CAUSES,Headache
+Vildagliptin,CAUSES,Pancreatitis risk
+Vildagliptin,CAUSES,Joint pain
+Exenatide,TARGETS,GLP-1 receptor
+Exenatide,METABOLIZED_BY,Proteolytic degradation (endopeptidases)
+Exenatide,TRANSPORTED_BY,Not fully characterized (large peptides)
+Exenatide,PARTICIPATES_IN,Incretin mimetic pathway
+Exenatide,CAUSES,Nausea
+Exenatide,CAUSES,Vomiting
+Exenatide,CAUSES,Diarrhea
+Exenatide,CAUSES,Pancreatitis
+Exenatide,CAUSES,Thyroid C-cell tumor risk
+Liraglutide,TARGETS,GLP-1 receptor
+Liraglutide,METABOLIZED_BY,Proteolytic degradation (endopeptidases)
+Liraglutide,TRANSPORTED_BY,Not fully characterized (large peptides)
+Liraglutide,PARTICIPATES_IN,Incretin mimetic pathway
+Liraglutide,CAUSES,Nausea
+Liraglutide,CAUSES,Vomiting
+Liraglutide,CAUSES,Diarrhea
+Liraglutide,CAUSES,Pancreatitis
+Liraglutide,CAUSES,Thyroid C-cell tumor risk
+Dulaglutide,TARGETS,GLP-1 receptor
+Dulaglutide,METABOLIZED_BY,Proteolytic degradation (endopeptidases)
+Dulaglutide,TRANSPORTED_BY,Not fully characterized (large peptides)
+Dulaglutide,PARTICIPATES_IN,Incretin mimetic pathway
+Dulaglutide,CAUSES,Nausea
+Dulaglutide,CAUSES,Vomiting
+Dulaglutide,CAUSES,Diarrhea
+Dulaglutide,CAUSES,Pancreatitis
+Dulaglutide,CAUSES,Thyroid C-cell tumor risk
+Semaglutide,TARGETS,GLP-1 receptor
+Semaglutide,METABOLIZED_BY,Proteolytic degradation (endopeptidases)
+Semaglutide,TRANSPORTED_BY,Not fully characterized (large peptides)
+Semaglutide,PARTICIPATES_IN,Incretin mimetic pathway
+Semaglutide,CAUSES,Nausea
+Semaglutide,CAUSES,Vomiting
+Semaglutide,CAUSES,Diarrhea
+Semaglutide,CAUSES,Pancreatitis
+Semaglutide,CAUSES,Thyroid C-cell tumor risk
+Lixisenatide,TARGETS,GLP-1 receptor
+Lixisenatide,METABOLIZED_BY,Proteolytic degradation (endopeptidases)
+Lixisenatide,TRANSPORTED_BY,Not fully characterized (large peptides)
+Lixisenatide,PARTICIPATES_IN,Incretin mimetic pathway
+Lixisenatide,CAUSES,Nausea
+Lixisenatide,CAUSES,Vomiting
+Lixisenatide,CAUSES,Diarrhea
+Lixisenatide,CAUSES,Pancreatitis
+Lixisenatide,CAUSES,Thyroid C-cell tumor risk

@@ -1,0 +1,10 @@
+torch
+torch-geometric
+pandas
+scikit-learn
+xgboost
+joblib
+networkx
+fastapi
+uvicorn
+reportlab

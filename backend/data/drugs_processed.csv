@@ -1,0 +1,6 @@
+canonical_id,canonical_name,half_life,targets_list,enzymes_list,transporters_list,pathways_list,side_effects_list,target_count,enzyme_count,transporter_count,pathway_count,side_effect_count
+DB001,DrugA,24,"['Target1', 'Target2']",['CYP3A4'],['ABCB1'],"['Pathway1', 'Pathway2']",['Hepatotoxicity'],2,1,1,2,1
+DB002,DrugB,12,['Target3'],['CYP3A4'],['ABCB1'],['Pathway1'],['Hepatotoxicity'],1,1,1,1,1
+DB003,DrugC,36,['Target4'],['CYP2D6'],[],['Pathway3'],['QT_Prolongation'],1,1,0,1,1
+DB004,DrugD,18,['Target5'],['CYP2D6'],['ABCB1'],['Pathway3'],['QT_Prolongation'],1,1,1,1,1
+DB005,DrugE,8,['Target6'],[],['ABCB2'],"['Pathway2', 'Pathway4']",['Hypertension'],1,0,1,2,1

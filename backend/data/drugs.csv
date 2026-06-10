@@ -1,0 +1,6 @@
+drug_id,drug_name,atc_class,targets,enzymes,transporters,pathways,side_effects,half_life
+DB001,DrugA,A01AA,Target1;Target2,CYP3A4,ABCB1,Pathway1;Pathway2,Hepatotoxicity,24
+DB002,DrugB,B02BB,Target3,CYP3A4,ABCB1,Pathway1,Hepatotoxicity,12
+DB003,DrugC,C01CC,Target4,CYP2D6,,Pathway3,QT_Prolongation,36
+DB004,DrugD,D01DD,Target5,CYP2D6,ABCB1,Pathway3,QT_Prolongation,18
+DB005,DrugE,E01EE,Target6,,ABCB2,Pathway2;Pathway4,Hypertension,8
