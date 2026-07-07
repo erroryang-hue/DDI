@@ -1,4 +1,11 @@
-drug1,drug2,label
-DB001,DB002,1
-DB003,DB004,1
-DB001,DB005,0
+drug1,drug2,interaction_severity,mechanism
+Aspirin,Warfarin,Critical,Antiplatelet potentiates anticoagulant effect; increased bleeding risk
+Warfarin,Omeprazole,Moderate,CYP2C9 inhibition decreases warfarin metabolism
+Atorvastatin,Clarithromycin,Moderate,CYP3A4 inhibition increases statin levels; myopathy risk
+Metformin,Contrast Dye,Critical,Risk of lactic acidosis with IV contrast
+Lisinopril,NSAIDs,Moderate,NSAIDs reduce ACE inhibitor efficacy; renal damage
+Amoxicillin,Metformin,Minor,GI upset may impair metformin absorption
+Fluoxetine,Warfarin,Moderate,SSRI increases warfarin levels via CYP2C9 inhibition
+Ibuprofen,Lisinopril,Moderate,NSAIDs blunt ACE inhibitor antihypertensive effect
+Simvastatin,Clarithromycin,Critical,CYP3A4 inhibition; severe myopathy and rhabdomyolysis risk
+Metoprolol,Venlafaxine,Mild,Potential for bradycardia with combined use

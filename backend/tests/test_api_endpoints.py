@@ -31,7 +31,7 @@ def test_analyze_endpoint():
 
 
 def test_polypharmacy_endpoint():
-    payload = {"drugs": ["DB001", "DB002", "DB003"]}
+    payload = {"drugs": ["Aspirin", "Warfarin", "Metformin"]}
     r = client.post("/api/v1/polypharmacy", json=payload)
     assert r.status_code == 200, r.text
     js = r.json()

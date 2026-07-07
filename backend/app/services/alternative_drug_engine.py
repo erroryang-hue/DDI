@@ -1,17 +1,18 @@
 from typing import List, Dict
 from pathlib import Path
+import re
 import pandas as pd
+from app.services.drug_meta import load_drug_catalog, _find_drug_rows
 from app.services.interaction_engine import score_interaction
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
-DRUGS_CSV = DATA_DIR / "drugs.csv"
 
 
 def _parse(cell):
     if pd.isna(cell) or cell is None:
         return []
-    return [s.strip() for s in str(cell).split(";") if s.strip()]
+    return [s.strip() for s in re.split(r"[;,]", str(cell)) if s.strip()]
 
 
 def _jaccard(a: set, b: set) -> float:
@@ -28,8 +29,26 @@ def find_alternatives(drug_id: str, top_k: int = 5) -> List[Dict]:
     Exclude the same drug and drugs that have a detected interaction (interaction_score > 0).
     Returns list of dicts: {drug_id, score}
     """
-    df = pd.read_csv(DRUGS_CSV)
-    row = df[df["drug_id"] == drug_id]
+    df = load_drug_catalog()
+
+    # determine identifier column
+    id_col = None
+    if "drug_id" in df.columns:
+        id_col = "drug_id"
+    elif "canonical_id" in df.columns:
+        id_col = "canonical_id"
+
+    row = _find_drug_rows(drug_id, df)
+    if row.empty:
+        return []
+        # fallback: match by drug_name or canonical_name
+        if "drug_name" in df.columns:
+            row = df[df["drug_name"].astype(str).str.lower() == str(drug_id).lower()]
+        elif "canonical_name" in df.columns:
+            row = df[df["canonical_name"].astype(str).str.lower() == str(drug_id).lower()]
+        else:
+            row = pd.DataFrame()
+
     if row.empty:
         return []
     r = row.iloc[0]
@@ -40,8 +59,11 @@ def find_alternatives(drug_id: str, top_k: int = 5) -> List[Dict]:
 
     candidates = []
     for _, c in df.iterrows():
-        cid = c.get("drug_id")
-        if cid == drug_id:
+        if id_col:
+            cid = c.get(id_col)
+        else:
+            cid = c.get("drug_name") or c.get("canonical_name")
+        if str(cid).lower() == str(drug_id).lower():
             continue
 
         # exclude interacting drugs

@@ -6,7 +6,6 @@ import InteractionAnalysis from './pages/InteractionAnalysis'
 import Polypharmacy from './pages/Polypharmacy'
 import DrugSearch from './pages/DrugSearch'
 import GraphExplorer from './pages/GraphExplorer'
-import TimelineSimulator from './pages/TimelineSimulator'
 import Recommendations from './pages/Recommendations'
 import Analytics from './pages/Analytics'
 import NotFound from './pages/NotFound'
@@ -17,7 +16,6 @@ const routeTitle: Record<string, string> = {
   '/polypharmacy': 'Polypharmacy',
   '/search': 'Drug Search',
   '/graph': 'Graph Explorer',
-  '/timeline': 'Timeline Simulator',
   '/recommendations': 'Recommendations',
   '/analytics': 'Analytics',
 }
@@ -38,7 +36,6 @@ function Content() {
             <Route path="/polypharmacy" element={<Polypharmacy />} />
             <Route path="/search" element={<DrugSearch />} />
             <Route path="/graph" element={<GraphExplorer />} />
-            <Route path="/timeline" element={<TimelineSimulator />} />
             <Route path="/recommendations" element={<Recommendations />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />

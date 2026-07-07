@@ -6,7 +6,6 @@ const links = [
   { to: '/polypharmacy', label: 'Polypharmacy' },
   { to: '/search', label: 'Drug Search' },
   { to: '/graph', label: 'Graph Explorer' },
-  { to: '/timeline', label: 'Timeline Simulator' },
   { to: '/recommendations', label: 'Recommendations' },
   { to: '/analytics', label: 'Analytics' },
 ]

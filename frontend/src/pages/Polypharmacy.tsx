@@ -5,7 +5,7 @@ import Loader from '../components/Loader'
 import EmptyState from '../components/EmptyState'
 
 export default function Polypharmacy() {
-  const [drugs, setDrugs] = useState('DB001,DB002,DB003')
+  const [drugs, setDrugs] = useState('Aspirin,Warfarin,Metformin')
   const [result, setResult] = useState<any | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -32,8 +32,8 @@ export default function Polypharmacy() {
         <h2>Polypharmacy analysis</h2>
         <form className="form-grid" onSubmit={handleSubmit}>
           <label>
-            Drug list
-            <input value={drugs} onChange={(e) => setDrugs(e.target.value)} placeholder="DB001,DB002,DB003" />
+            Drug list (comma-separated)
+            <input value={drugs} onChange={(e) => setDrugs(e.target.value)} placeholder="Aspirin,Warfarin,Metformin" />
           </label>
           <div className="form-actions">
             <button type="submit" disabled={loading} className="button primary">

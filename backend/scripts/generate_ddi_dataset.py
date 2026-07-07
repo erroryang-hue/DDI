@@ -8,9 +8,10 @@ import pandas as pd
 from itertools import combinations
 from app.services.ddi_service import enzyme_inhibition, enzyme_induction, additive_toxicity
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 DRUGS_CSV = DATA_DIR / "drugs.csv"
+GENERATED_CSV = DATA_DIR / "drugs_generated.csv"
 OUT_CSV = DATA_DIR / "ddi_dataset.csv"
 
 
@@ -21,12 +22,40 @@ def _parse(cell):
 
 
 def generate_dataset(balance: bool = True):
-    df = pd.read_csv(DRUGS_CSV)
+    # Load official drugs and optionally include generated synthetic drugs
+    df_list = []
+    if DRUGS_CSV.exists():
+        df_list.append(pd.read_csv(DRUGS_CSV))
+    if GENERATED_CSV.exists():
+        df_list.append(pd.read_csv(GENERATED_CSV))
+    if not df_list:
+        raise FileNotFoundError("No drugs CSV found in data directory")
+    df = pd.concat(df_list, ignore_index=True)
+    # ensure a consistent drug_id column exists
+    if "drug_id" not in df.columns:
+        # create drug_id from drug_name by uppercasing and replacing non-alphanum
+        def make_id(name, idx):
+            if pd.isna(name) or str(name).strip() == "":
+                return f"UNK{idx:04d}"
+            base = str(name).strip().upper()
+            base = "".join([c if c.isalnum() else "_" for c in base])
+            return base
+
+        df = df.reset_index(drop=True)
+        df["drug_id"] = [make_id(r.get("drug_name", ""), i) for i, r in df.iterrows()]
+
+    df = df.drop_duplicates(subset=["drug_id"])
     pairs = list(combinations(df["drug_id"].tolist(), 2))
     rows = []
+    # build a mapping for fast, reliable lookups
+    df = df.reset_index(drop=True)
+    records = {r["drug_id"]: r for r in df.to_dict(orient="records")}
     for d1, d2 in pairs:
-        r1 = df[df["drug_id"] == d1].iloc[0]
-        r2 = df[df["drug_id"] == d2].iloc[0]
+        if d1 not in records or d2 not in records:
+            # skip malformed or missing entries
+            continue
+        r1 = records[d1]
+        r2 = records[d2]
 
         enzymes1 = _parse(r1.get("enzymes", ""))
         enzymes2 = _parse(r2.get("enzymes", ""))

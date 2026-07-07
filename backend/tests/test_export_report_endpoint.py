@@ -6,8 +6,8 @@ client = TestClient(app)
 
 def test_export_report_endpoint():
     payload = {
-        "drug1": "DB001",
-        "drug2": "DB002",
+        "drug1": "Aspirin",
+        "drug2": "Warfarin",
         "risk_score": 0.78,
         "severity": "MODERATE",
         "mechanisms": ["CYP3A4 inhibition", "QT prolongation"],

@@ -2,6 +2,7 @@ from pathlib import Path
 import pandas as pd
 from collections import Counter
 from app.graph.graph_builder import build_graph
+from app.services.drug_meta import load_drug_catalog
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
@@ -42,8 +43,20 @@ def top_entities(n: int = 5):
     Returns the structure requested by the API consumer with totals and
     top-N lists restricted to the appropriate node 'type'.
     """
-    # totals: prefer authoritative counts from CSV files if present
-    total_drugs = _count_rows(DATA_DIR / "drugs.csv")
+    # totals: use the combined drug catalog so analytics reflect all discovered drug sources
+    df = load_drug_catalog()
+    total_drugs = df['drug_name'].nunique() if not df.empty and 'drug_name' in df.columns else 0
+
+    # retain existing fallback behavior for the other entity counts
+    repo_root = ROOT
+    synth_count = 0
+    cur = repo_root
+    for _ in range(4):
+        for candidate in cur.glob("synthetic_*_with_half_life.csv"):
+            synth_count += _count_rows(candidate)
+        cur = cur.parent
+
+    # leave these as file-based counts for now, since analytics still uses CSV-backed entity sets
     total_enzymes = _count_rows(DATA_DIR / "enzymes.csv")
     total_pathways = _count_rows(DATA_DIR / "pathways.csv")
     total_side_effects = _count_rows(DATA_DIR / "side_effects.csv")

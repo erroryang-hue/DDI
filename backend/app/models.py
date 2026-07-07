@@ -19,9 +19,9 @@ class DDIRequest(BaseModel):
     interval1: float = Field(..., gt=0)
     interval2: float = Field(..., gt=0)
 
-    # Pharmacokinetics
-    half_life1: float = Field(..., gt=0)
-    half_life2: float = Field(..., gt=0)
+    # Pharmacokinetics (optional; server will lookup from dataset if omitted)
+    half_life1: float | None = None
+    half_life2: float | None = None
 
     # Genetics (simple flag)
     poor_metabolizer: bool = False

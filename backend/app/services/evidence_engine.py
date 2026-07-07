@@ -1,5 +1,6 @@
 from typing import List, Tuple
 from pathlib import Path
+import re
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -10,7 +11,7 @@ DRUGS_CSV = DATA_DIR / "drugs.csv"
 def _parse(cell):
     if pd.isna(cell) or cell is None:
         return set()
-    return set([s.strip() for s in str(cell).split(";") if s.strip()])
+    return set([s.strip() for s in re.split(r"[;,]", str(cell)) if s.strip()])
 
 
 def evidence_and_confidence(

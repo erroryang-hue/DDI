@@ -1,0 +1,11 @@
+import requests
+print('GET /api/v1/analytics')
+r=requests.get('http://127.0.0.1:8000/api/v1/analytics',timeout=5)
+print(r.status_code)
+print(r.text)
+print('\nGET /api/v1/drugs')
+r2=requests.get('http://127.0.0.1:8000/api/v1/drugs',timeout=5)
+print(r2.status_code)
+js=r2.json()
+print('drugs count', len(js.get('drugs',[])))
+print(js.get('drugs')[:3])

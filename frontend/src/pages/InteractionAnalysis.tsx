@@ -4,21 +4,20 @@ import { saveRecentAnalysis } from '../utils/storage'
 import Card from '../components/Card'
 import Loader from '../components/Loader'
 import EmptyState from '../components/EmptyState'
+import DrugAutocomplete from '../components/DrugAutocomplete'
 import type { AnalyzeResponse } from '../api/types'
 
 const initialForm = {
-  drug1: 'DrugA',
-  drug2: 'DrugB',
-  age: 45,
-  weight: 70,
-  dose1: 100,
-  dose2: 100,
-  start1: '2024-01-01',
-  start2: '2024-01-02',
+  drug1: 'Aspirin',
+  drug2: 'Warfarin',
+  age: 65,
+  weight: 75,
+  dose1: 500,
+  dose2: 5,
+  // time between drug1 and drug2 in hours
+  time_between: 24,
   interval1: 24,
   interval2: 24,
-  half_life1: 24,
-  half_life2: 12,
   poor_metabolizer: false,
 }
 
@@ -47,84 +46,116 @@ export default function InteractionAnalysis() {
   return (
     <div className="page-grid">
       <Card>
-        <h2>Interaction analysis</h2>
+        <h2>Interaction Analysis</h2>
         <form className="form-grid" onSubmit={handleSubmit}>
-          <label>
-            Drug 1
-            <input value={form.drug1} onChange={(e) => setForm({ ...form, drug1: e.target.value })} />
-          </label>
-          <label>
-            Drug 2
-            <input value={form.drug2} onChange={(e) => setForm({ ...form, drug2: e.target.value })} />
-          </label>
+          <DrugAutocomplete 
+            value={form.drug1} 
+            onChange={(value) => setForm({ ...form, drug1: value })}
+            label="Drug 1"
+            placeholder="Search and select first drug"
+          />
+          <DrugAutocomplete 
+            value={form.drug2} 
+            onChange={(value) => setForm({ ...form, drug2: value })}
+            label="Drug 2"
+            placeholder="Search and select second drug"
+          />
           <label>
             Age
-            <input type="number" value={form.age} min={0} onChange={(e) => setForm({ ...form, age: Number(e.target.value) })} />
+            <input type="number" value={form.age} min={0} max={120} onChange={(e) => setForm({ ...form, age: Number(e.target.value) })} />
           </label>
           <label>
             Weight (kg)
             <input type="number" value={form.weight} min={1} onChange={(e) => setForm({ ...form, weight: Number(e.target.value) })} />
           </label>
           <label>
-            Dose 1
-            <input type="number" value={form.dose1} min={1} onChange={(e) => setForm({ ...form, dose1: Number(e.target.value) })} />
+            Dose 1 (mg)
+            <input
+              type="number"
+              value={form.dose1}
+              min={1}
+              onChange={(e) => {
+                const s = String(e.target.value).replace(/^0+(?=\d)/, '')
+                setForm({ ...form, dose1: Number(s) || 0 })
+              }}
+            />
           </label>
           <label>
-            Dose 2
-            <input type="number" value={form.dose2} min={1} onChange={(e) => setForm({ ...form, dose2: Number(e.target.value) })} />
+            Dose 2 (mg)
+            <input
+              type="number"
+              value={form.dose2}
+              min={1}
+              onChange={(e) => {
+                const s = String(e.target.value).replace(/^0+(?=\d)/, '')
+                setForm({ ...form, dose2: Number(s) || 0 })
+              }}
+            />
+          </label>
+          {/* removed start date inputs to simplify analysis; use Time between instead */}
+          <label>
+            Time between drugs (hours)
+            <input type="number" value={form.time_between} min={0} step={0.5} onChange={(e) => setForm({ ...form, time_between: Number(String(e.target.value).replace(/^0+(?=\d)/, '')) || 0 })} />
           </label>
           <label>
-            Start date 1
-            <input type="date" value={form.start1} onChange={(e) => setForm({ ...form, start1: e.target.value })} />
+            Interval 1 (hours)
+            <input type="number" value={form.interval1} min={1} step={0.5} onChange={(e) => setForm({ ...form, interval1: Number(String(e.target.value).replace(/^0+(?=\d)/, '')) || 0 })} />
           </label>
           <label>
-            Start date 2
-            <input type="date" value={form.start2} onChange={(e) => setForm({ ...form, start2: e.target.value })} />
+            Interval 2 (hours)
+            <input type="number" value={form.interval2} min={1} step={0.5} onChange={(e) => setForm({ ...form, interval2: Number(String(e.target.value).replace(/^0+(?=\d)/, '')) || 0 })} />
           </label>
-          <label>
-            Interval 1 (hrs)
-            <input type="number" value={form.interval1} min={1} onChange={(e) => setForm({ ...form, interval1: Number(e.target.value) })} />
-          </label>
-          <label>
-            Interval 2 (hrs)
-            <input type="number" value={form.interval2} min={1} onChange={(e) => setForm({ ...form, interval2: Number(e.target.value) })} />
-          </label>
-          <label>
-            Half-life 1 (hrs)
-            <input type="number" value={form.half_life1} min={1} onChange={(e) => setForm({ ...form, half_life1: Number(e.target.value) })} />
-          </label>
-          <label>
-            Half-life 2 (hrs)
-            <input type="number" value={form.half_life2} min={1} onChange={(e) => setForm({ ...form, half_life2: Number(e.target.value) })} />
-          </label>
+          {/* Half-life removed from UI: it's taken from the dataset automatically */}
           <label className="checkbox-label">
             <input type="checkbox" checked={form.poor_metabolizer} onChange={(e) => setForm({ ...form, poor_metabolizer: e.target.checked })} />
-            Poor metabolizer
+            Poor metabolizer (CYP2D6)
           </label>
           <div className="form-actions">
             <button type="submit" disabled={loading} className="button primary">
-              {loading ? 'Analyzing…' : 'Run analysis'}
+              {loading ? 'Analyzing…' : 'Run Analysis'}
             </button>
           </div>
         </form>
       </Card>
 
       <Card>
-        <h2>Interaction summary</h2>
+        <h2>Interaction Results</h2>
         {loading && <Loader />}
         {error && <p className="section-error">{error}</p>}
         {result ? (
           <div className="result-panel">
-            <p><strong>Interaction:</strong> {result.interaction ? 'Yes' : 'No'}</p>
-            <p><strong>Risk score:</strong> {result.risk_score.toFixed(3)}</p>
-            <p><strong>Severity:</strong> {result.severity}</p>
-            <p><strong>Mechanisms:</strong></p>
-            <ul>{result.mechanisms.map((item, index) => <li key={index}>{item}</li>)}</ul>
-            <p><strong>Recommendations:</strong></p>
-            <ul>{result.recommendations.map((item, index) => <li key={index}>{item}</li>)}</ul>
+            <div className={`severity-badge severity-${result.severity.toLowerCase()}`}>
+              {result.severity}
+            </div>
+            <div className="result-grid">
+              <div className="result-item">
+                <span className="label">Risk Score:</span>
+                <span className="value">{(result.risk_score * 100).toFixed(1)}%</span>
+              </div>
+              <div className="result-item">
+                <span className="label">Interaction:</span>
+                <span className="value">{result.interaction ? '✓ Yes' : '✗ No'}</span>
+              </div>
+            </div>
+            {result.mechanisms && result.mechanisms.length > 0 && (
+              <div className="result-section">
+                <h3>Mechanisms</h3>
+                <ul className="mechanism-list">
+                  {result.mechanisms.map((item, index) => <li key={index}>{item}</li>)}
+                </ul>
+              </div>
+            )}
+            {result.recommendations && result.recommendations.length > 0 && (
+              <div className="result-section">
+                <h3>Clinical Recommendations</h3>
+                <ul className="recommendation-list">
+                  {result.recommendations.map((item, index) => <li key={index}>• {item}</li>)}
+                </ul>
+              </div>
+            )}
           </div>
         ) : (
-          <EmptyState title="No analysis results" description="Submit the form to run an interaction analysis." />
+          <EmptyState title="No results yet" description="Fill in the form and click Run Analysis to check for drug interactions." />
         )}
       </Card>
     </div>

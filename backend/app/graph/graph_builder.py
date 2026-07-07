@@ -27,10 +27,48 @@ def build_graph():
 
     for ntype, path in csv_map.items():
         if not path.exists():
-            continue
-        df = pd.read_csv(path)
+            # allow optional generated drugs file for drugs list
+            if ntype == "drugs":
+                gen_path = DATA_DIR / "drugs_generated.csv"
+                if not gen_path.exists():
+                    continue
+                df = pd.read_csv(gen_path)
+            else:
+                continue
+        else:
+            df = pd.read_csv(path)
+
+        # if drugs, include generated drugs as well
+        if ntype == "drugs":
+            gen_path = DATA_DIR / "drugs_generated.csv"
+            if gen_path.exists():
+                try:
+                    df_gen = pd.read_csv(gen_path)
+                    df = pd.concat([df, df_gen], ignore_index=True)
+                    # prefer explicit drug_name and drop duplicates
+                    if "drug_name" in df.columns:
+                        df = df.drop_duplicates(subset=["drug_name"])
+                except Exception:
+                    pass
+            # also append any workspace-root synthetic files (50/500 etc.)
+            cur = ROOT
+            for _ in range(4):
+                for candidate in cur.glob("synthetic_*_with_half_life.csv"):
+                    try:
+                        df_synth = pd.read_csv(candidate)
+                        df = pd.concat([df, df_synth], ignore_index=True)
+                        if "drug_name" in df.columns:
+                            df = df.drop_duplicates(subset=["drug_name"])
+                    except Exception:
+                        continue
+                cur = cur.parent
+
         for _, row in df.iterrows():
-            node_id = row.get("drug_id") or row.get("name") or row.get("id")
+            # For drugs.csv, use drug_name; for others use id or name
+            if ntype == "drugs":
+                node_id = row.get("drug_name")
+            else:
+                node_id = row.get("id") or row.get("name")
             if not node_id:
                 continue
             attrs = row.to_dict()
@@ -45,6 +83,23 @@ def build_graph():
             }
             attrs["type"] = type_map.get(ntype, ntype)
             g.add_node(str(node_id), **attrs)
+
+    # add nodes from processed drug lookup to support canonical IDs
+    processed_path = DATA_DIR / "drugs_processed.csv"
+    if processed_path.exists():
+        try:
+            pdf = pd.read_csv(processed_path)
+            for _, row in pdf.iterrows():
+                canonical_name = row.get("canonical_name")
+                if not canonical_name or str(canonical_name).strip() == "":
+                    continue
+                node_id = str(canonical_name)
+                if node_id not in g:
+                    attrs = row.to_dict()
+                    attrs["type"] = "Drug"
+                    g.add_node(node_id, **attrs)
+        except Exception:
+            pass
 
     # load edges
     edges_path = DATA_DIR / "graph_edges.csv"

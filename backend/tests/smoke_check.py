@@ -33,8 +33,8 @@ def call_post(path, payload):
 
 
 payload_analyze = {
-    "drug1": "DB001",
-    "drug2": "DB002",
+    "drug1": "Aspirin",
+    "drug2": "Warfarin",
     "age": 45,
     "weight": 70.0,
     "dose1": 100.0,
@@ -43,27 +43,27 @@ payload_analyze = {
     "start2": 2.0,
     "interval1": 24.0,
     "interval2": 24.0,
-    "half_life1": 24.0,
-    "half_life2": 12.0,
+    "half_life1": 0.25,
+    "half_life2": 40.0,
     "poor_metabolizer": False,
 }
 
 payload_timeline = {
-    "drug1": "DB001",
-    "drug2": "DB002",
+    "drug1": "Aspirin",
+    "drug2": "Warfarin",
     "start1": 0.0,
     "start2": 2.0,
     "interval1": 24.0,
     "interval2": 24.0,
-    "half_life1": 24.0,
-    "half_life2": 12.0,
+    "half_life1": 0.25,
+    "half_life2": 40.0,
 }
 
 call_get('/api/v1/analytics')
-call_get('/api/v1/graph/neighborhood/DB001')
-call_get('/api/v1/graph/DB001/DB001')
-call_get('/api/v1/search/DB001')
-call_get('/api/v1/alternatives/DB001')
+call_get('/api/v1/graph/neighborhood/Aspirin')
+call_get('/api/v1/graph/Aspirin/Warfarin')
+call_get('/api/v1/search/Aspirin')
+call_get('/api/v1/alternatives/Aspirin')
 call_post('/api/v1/timeline', payload_timeline)
-call_post('/api/v1/polypharmacy', {"drugs": ["DB001", "DB002", "DB003"]})
+call_post('/api/v1/polypharmacy', {"drugs": ["Aspirin", "Warfarin", "Metformin"]})
 call_post('/api/v1/analyze', payload_analyze)

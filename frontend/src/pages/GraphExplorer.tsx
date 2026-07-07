@@ -1,14 +1,15 @@
 import { useMemo, useState } from 'react'
 import ReactFlow, { Background, Controls } from 'reactflow'
 import 'reactflow/dist/style.css'
-import { getGraphForPair } from '../api/search'
+import { getGraphForPair, getNeighborhood } from '../api/search'
 import Card from '../components/Card'
 import Loader from '../components/Loader'
 import EmptyState from '../components/EmptyState'
+import { getRecentAnalyses } from '../utils/storage'
 
 export default function GraphExplorer() {
-  const [drug1, setDrug1] = useState('DB001')
-  const [drug2, setDrug2] = useState('DB002')
+  const [drug1, setDrug1] = useState('Aspirin')
+  const [drug2, setDrug2] = useState('Warfarin')
   const [graphData, setGraphData] = useState<any | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -49,6 +50,52 @@ export default function GraphExplorer() {
     }
   }
 
+  async function handleLoadFromRecent() {
+    setLoading(true)
+    setError(null)
+    try {
+      const recent = getRecentAnalyses()
+      if (!recent || recent.length === 0) {
+        setError('No recent analyses found in browser storage')
+        setGraphData(null)
+        return
+      }
+
+      // collect unique drug names
+      const drugs = new Set<string>()
+      recent.forEach((r) => {
+        if (r.drug1) drugs.add(r.drug1)
+        if (r.drug2) drugs.add(r.drug2)
+      })
+
+      const nodesMap: Record<string, any> = {}
+      const edgesMap: Record<string, any> = {}
+
+      for (const d of Array.from(drugs)) {
+        try {
+          const sub = await getNeighborhood(d, 2)
+          ;(sub.nodes || []).forEach((n: any) => {
+            nodesMap[n.id] = n
+          })
+          ;(sub.edges || []).forEach((e: any) => {
+            const key = `${e.source}->${e.target}`
+            edgesMap[key] = e
+          })
+        } catch (err) {
+          // ignore per-drug failures but continue
+        }
+      }
+
+      const merged = { nodes: Object.values(nodesMap), edges: Object.values(edgesMap) }
+      setGraphData(merged)
+    } catch (err: any) {
+      setError(err?.message || 'Unable to load graph from recent analyses')
+      setGraphData(null)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   return (
     <div className="page-grid">
       <Card>
@@ -65,6 +112,9 @@ export default function GraphExplorer() {
           <div className="form-actions">
             <button type="submit" disabled={loading} className="button primary">
               {loading ? 'Loading…' : 'Explore Graph'}
+            </button>
+            <button type="button" disabled={loading} onClick={handleLoadFromRecent} className="button">
+              Load From Recent Analyses
             </button>
           </div>
         </form>

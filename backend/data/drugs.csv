@@ -1,6 +1,21 @@
-drug_id,drug_name,atc_class,targets,enzymes,transporters,pathways,side_effects,half_life
-DB001,DrugA,A01AA,Target1;Target2,CYP3A4,ABCB1,Pathway1;Pathway2,Hepatotoxicity,24
-DB002,DrugB,B02BB,Target3,CYP3A4,ABCB1,Pathway1,Hepatotoxicity,12
-DB003,DrugC,C01CC,Target4,CYP2D6,,Pathway3,QT_Prolongation,36
-DB004,DrugD,D01DD,Target5,CYP2D6,ABCB1,Pathway3,QT_Prolongation,18
-DB005,DrugE,E01EE,Target6,,ABCB2,Pathway2;Pathway4,Hypertension,8
+drug_name,generic_name,atc_class,brand_names,targets,enzymes,transporters,pathways,side_effects,half_life,route,drug_class
+Aspirin,Acetylsalicylic acid,N02BA,Bayer;Ecotrin,Target1;Target2,CYP3A4,ABCB1,Pathway1;Pathway2,GI_Bleeding;Hepatotoxicity,0.25,oral,NSAID
+Warfarin,Warfarin,B01AA,Coumadin;Jantoven,Target3;Target4,CYP2C9;CYP3A4,ABCB1,Pathway1,Bleeding,40,oral,Anticoagulant
+Metformin,Metformin HCl,A10BA,Glucophage;Fortamet,Target5;Target6,None,ABCB1,Pathway3,GI_Upset;Lactic_Acidosis,5,oral,Antidiabetic
+Lisinopril,Lisinopril,C09AA,Prinivil;Zestril,Target7;Target8,CYP3A4,ABCB1,Pathway2,Cough;Hyperkalemia,12,oral,ACE_Inhibitor
+Atorvastatin,Atorvastatin,C10AA,Lipitor;Torvast,Target9,CYP3A4,ABCB1,Pathway4,Muscle_Pain,14,oral,Statin
+Amoxicillin,Amoxicillin,J01CA,Amoxil;Augmentin,Target10,CYP2D6,ABCB1,Pathway5,Allergic_Reaction;Diarrhea,1,oral,Beta_Lactam
+Omeprazole,Omeprazole,A02BC,Prilosec;Losec,Target11,CYP2C19;CYP3A4,ABCB1,Pathway6,Headache;B12_Deficiency,1,oral,PPI
+Diclofenac,Diclofenac,M01AB,Voltaren;Cataflam,Target12,CYP2C9;CYP3A4,ABCB1,Pathway7,GI_Ulcer;Renal_Damage,2,oral,NSAID
+Ibuprofen,Ibuprofen,M01AB,Advil;Motrin,Target13,CYP2C9,ABCB1,Pathway8,GI_Upset;Renal_Damage,2,oral,NSAID
+Metoprolol,Metoprolol,C07AB,Lopressor;Toprol,Target14,CYP2D6,ABCB1,Pathway9,Fatigue;Bradycardia,4,oral,Beta_Blocker
+Simvastatin,Simvastatin,C10AA,Zocor;Vytorin,Target15,CYP3A4,ABCB1,Pathway4,Muscle_Pain;Liver_Damage,2,oral,Statin
+Fluoxetine,Fluoxetine,N06AB,Prozac;Sarafem,Target16,CYP2D6;CYP3A4,ABCB1,Pathway10,Serotonin_Syndrome,72,oral,SSRI
+Amlodipine,Amlodipine,C08CA,Norvasc;Lotrel,Target17,CYP3A4,ABCB1,Pathway11,Edema;Headache,40,oral,Calcium_Channel_Blocker
+Clopidogrel,Clopidogrel,B01AC,Plavix;Iscover,Target18,CYP2C19;CYP3A4,ABCB1,Pathway12,Bleeding,8,oral,Antiplatelet
+Venlafaxine,Venlafaxine,N06AX,Effexor;Trevilor,Target19,CYP2D6;CYP3A4,ABCB1,Pathway13,Serotonin_Syndrome;Hypertension,5,oral,SNRI
+Donepezil,Donepezil,N06DA,Aricept,Target20,CYP2D6;CYP3A4,ABCB1,Pathway14,Syncope;Bradycardia,70,oral,Anticholinesterase
+Diltiazem,Diltiazem,C08DB,Cardizem;Dilacor,Target21,CYP3A4,ABCB1,Pathway15,Bradycardia;Edema,4,oral,Calcium_Channel_Blocker
+Pravastatin,Pravastatin,C10AA,Pravachol;Lipostat,Target22,CYP3A4,ABCB1,Pathway4,Muscle_Pain,2,oral,Statin
+Clarithromycin,Clarithromycin,J01FA,Biaxin;Klaricid,Target23,CYP3A4,ABCB1,Pathway16,GI_Upset;QT_Prolongation,4,oral,Macrolide
+Ketoconazole,Ketoconazole,J02AB,Nizoral,Target24,CYP3A4,ABCB1,Pathway17,Hepatotoxicity;Nausea,2,oral,Antifungal

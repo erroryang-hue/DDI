@@ -19,6 +19,18 @@ def _parse_edges(df):
         src = r["source"]
         dst = r["target"]
         rel = r.get("relation", "related_to")
+        
+        # Skip if source or target is NaN or None
+        if pd.isna(src) or pd.isna(dst) or src is None or dst is None:
+            continue
+        
+        # Convert to string to ensure valid node names
+        src = str(src).strip()
+        dst = str(dst).strip()
+        
+        if not src or not dst:
+            continue
+            
         if rel not in rel_map:
             rel_map[rel] = rel_counter
             rel_counter += 1
@@ -61,18 +73,27 @@ def build_graph():
     # build nodes as union of all node names seen
     node_names = set()
     for s, t in edges:
-        node_names.add(s)
-        node_names.add(t)
+        # Already filtered in _parse_edges, but ensure strings
+        s = str(s).strip() if s is not None else None
+        t = str(t).strip() if t is not None else None
+        if s and t:
+            node_names.add(s)
+            node_names.add(t)
 
     # also add enzyme/target/pathway nodes from drugs lookup
     for dname, meta in drugs_lookup.items():
-        node_names.add(dname)
-        node_names.update(meta.get("enzymes", []))
-        node_names.update(meta.get("targets", []))
-        node_names.update(meta.get("pathways", []))
-        node_names.update(meta.get("side_effects", []))
+        dname = str(dname).strip() if dname else None
+        if dname:
+            node_names.add(dname)
+        for entity_list in [meta.get("enzymes", []), meta.get("targets", []), 
+                            meta.get("pathways", []), meta.get("side_effects", [])]:
+            for entity in entity_list:
+                entity = str(entity).strip() if entity else None
+                if entity and entity != "nan":
+                    node_names.add(entity)
 
-    nodes = sorted(node_names)
+    # convert all node names to strings and sort
+    nodes = sorted([n for n in node_names if n and n != "nan"])
     node_map = {node: idx for idx, node in enumerate(nodes)}
 
     # add explicit drug->entity edges from drugs lookup
@@ -90,11 +111,17 @@ def build_graph():
             edges.append((dname, se))
             edge_types.append(rel_map.setdefault("causes", len(rel_map)))
 
-    edge_index = torch.tensor(
-        [[node_map[src], node_map[dst]] for src, dst in edges], dtype=torch.long
-    ).t().contiguous()
+    # Filter edges and edge_types to only include valid node pairs
+    valid_edges = []
+    valid_edge_types = []
+    for (src, dst), etype in zip(edges, edge_types):
+        if src in node_map and dst in node_map:
+            valid_edges.append([node_map[src], node_map[dst]])
+            valid_edge_types.append(etype)
+    
+    edge_index = torch.tensor(valid_edges, dtype=torch.long).t().contiguous() if valid_edges else torch.zeros((2, 0), dtype=torch.long)
 
-    edge_attr = torch.tensor(edge_types, dtype=torch.long) if edge_types else None
+    edge_attr = torch.tensor(valid_edge_types, dtype=torch.long) if valid_edge_types else None
 
     # Node features: for drug nodes use counts + half_life; else use small one-hot type features
     x_list = []

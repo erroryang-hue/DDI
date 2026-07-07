@@ -5,7 +5,7 @@ import Loader from '../components/Loader'
 import EmptyState from '../components/EmptyState'
 
 export default function Recommendations() {
-  const [drugId, setDrugId] = useState('DB001')
+  const [drugId, setDrugId] = useState('Aspirin')
   const [alternatives, setAlternatives] = useState<any[] | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -33,7 +33,7 @@ export default function Recommendations() {
         <form className="form-grid" onSubmit={handleLookup}>
           <label>
             Drug ID
-            <input value={drugId} onChange={(e) => setDrugId(e.target.value)} placeholder="DB001" />
+            <input value={drugId} onChange={(e) => setDrugId(e.target.value)} placeholder="e.g., Aspirin, Warfarin" />
           </label>
           <div className="form-actions">
             <button type="submit" disabled={loading} className="button primary">

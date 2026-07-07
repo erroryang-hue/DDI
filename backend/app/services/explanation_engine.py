@@ -1,30 +1,36 @@
 from pathlib import Path
 from typing import List
+import re
 import pandas as pd
 
+from app.services.drug_meta import load_drug_catalog
+
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "data"
-DRUGS_CSV = DATA_DIR / "drugs.csv"
 
 
 def _parse(cell):
     if pd.isna(cell) or cell is None:
         return set()
-    return set([s.strip() for s in str(cell).split(";") if s.strip()])
+    return set([s.strip() for s in re.split(r"[;,]", str(cell)) if s.strip()])
 
 
-def _load_drug_row(df, drug_id: str):
-    row = df[df["drug_id"] == drug_id]
-    if row.empty:
+def _resolve_drug_row(df: pd.DataFrame, drug_key: str):
+    if df.empty or not drug_key:
         return None
-    r = row.iloc[0]
-    return {
-        "enzymes": _parse(r.get("enzymes", "")),
-        "targets": _parse(r.get("targets", "")),
-        "transporters": _parse(r.get("transporters", "")),
-        "pathways": _parse(r.get("pathways", "")),
-        "side_effects": _parse(r.get("side_effects", "")),
-    }
+    key = str(drug_key).strip().lower()
+    for col in ("drug_id", "drug_name", "generic_name", "canonical_id"):
+        if col in df.columns:
+            row = df[df[col].astype(str).str.lower() == key]
+            if not row.empty:
+                r = row.iloc[0]
+                return {
+                    "enzymes": _parse(r.get("enzymes", "")),
+                    "targets": _parse(r.get("targets", "")),
+                    "transporters": _parse(r.get("transporters", "")),
+                    "pathways": _parse(r.get("pathways", "")),
+                    "side_effects": _parse(r.get("side_effects", "")),
+                }
+    return None
 
 
 def _severity_label(score: float) -> str:
@@ -50,10 +56,10 @@ def generate_explanation(
 
     Signature: (drug1, drug2, mechanisms, graph_paths, risk_score) -> str
     """
-    # load drug reference
-    df = pd.read_csv(DRUGS_CSV)
-    d1 = _load_drug_row(df, drug1)
-    d2 = _load_drug_row(df, drug2)
+    # load drug reference from the combined drug catalog
+    df = load_drug_catalog()
+    d1 = _resolve_drug_row(df, drug1)
+    d2 = _resolve_drug_row(df, drug2)
 
     parts = []
     parts.append(f"Potential interaction between {drug1} and {drug2}.")

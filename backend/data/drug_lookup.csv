@@ -1,6 +1,21 @@
-canonical_id,canonical_name
-DB001,DrugA
-DB002,DrugB
-DB003,DrugC
-DB004,DrugD
-DB005,DrugE
+canonical_name,synonyms,generic_name,atc_code
+Aspirin,ASA;Acetylsalicylic acid,Acetylsalicylic acid,N02BA
+Warfarin,Coumadin;Jantoven,Warfarin,B01AA
+Metformin,Glucophage;Fortamet,Metformin HCl,A10BA
+Lisinopril,Prinivil;Zestril,Lisinopril,C09AA
+Atorvastatin,Lipitor;Torvast,Atorvastatin,C10AA
+Amoxicillin,Amoxil;Augmentin,Amoxicillin,J01CA
+Omeprazole,Prilosec;Losec,Omeprazole,A02BC
+Diclofenac,Voltaren;Cataflam,Diclofenac,M01AB
+Ibuprofen,Advil;Motrin,Ibuprofen,M01AB
+Metoprolol,Lopressor;Toprol,Metoprolol,C07AB
+Simvastatin,Zocor;Vytorin,Simvastatin,C10AA
+Fluoxetine,Prozac;Sarafem,Fluoxetine,N06AB
+Amlodipine,Norvasc;Lotrel,Amlodipine,C08CA
+Clopidogrel,Plavix;Iscover,Clopidogrel,B01AC
+Venlafaxine,Effexor;Trevilor,Venlafaxine,N06AX
+Donepezil,Aricept,Donepezil,N06DA
+Diltiazem,Cardizem;Dilacor,Diltiazem,C08DB
+Pravastatin,Pravachol;Lipostat,Pravastatin,C10AA
+Clarithromycin,Biaxin;Klaricid,Clarithromycin,J01FA
+Ketoconazole,Nizoral,Ketoconazole,J02AB

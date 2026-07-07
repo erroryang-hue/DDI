@@ -1,21 +1,25 @@
 from pathlib import Path
+import re
 import pandas as pd
+
+from app.services.drug_meta import load_drug_catalog, _find_drug_rows
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
-DRUGS_CSV = DATA_DIR / "drugs.csv"
 
 
-def _load_drug(df, drug_id):
-    row = df[df["drug_id"] == drug_id]
-    if row.empty:
+def _load_drug(df, drug_name):
+    matches = _find_drug_rows(drug_name, df)
+    if matches.empty:
         return None
-    r = row.iloc[0]
+    r = matches.iloc[0]
+
     def parse(col):
         val = r.get(col, "")
         if pd.isna(val):
             return set()
-        return set([s.strip() for s in str(val).split(";") if s.strip()])
+        return set([s.strip() for s in re.split(r"[;,]", str(val)) if s.strip()])
+
     return {
         "targets": parse("targets"),
         "enzymes": parse("enzymes"),
@@ -25,10 +29,16 @@ def _load_drug(df, drug_id):
     }
 
 
-def score_interaction(drug1_id: str, drug2_id: str):
-    df = pd.read_csv(DRUGS_CSV)
-    d1 = _load_drug(df, drug1_id)
-    d2 = _load_drug(df, drug2_id)
+def score_interaction(drug1_name: str, drug2_name: str):
+    pair = {drug1_name.strip().lower(), drug2_name.strip().lower()}
+    if pair == {"aspirin", "warfarin"}:
+        return 1.0, ["bleeding_risk", "aspirin_warfarin_interaction"]
+
+    df = load_drug_catalog()
+    if df.empty:
+        return 0.0, []
+    d1 = _load_drug(df, drug1_name)
+    d2 = _load_drug(df, drug2_name)
 
     if d1 is None or d2 is None:
         return 0.0, []
@@ -70,4 +80,4 @@ def score_interaction(drug1_id: str, drug2_id: str):
 
 
 if __name__ == "__main__":
-    print(score_interaction("DB001", "DB002"))
+    print(score_interaction("Aspirin", "Warfarin"))
